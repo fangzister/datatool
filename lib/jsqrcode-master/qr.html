@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="src/grid.js"></script>
+    <script type="text/javascript" src="src/version.js"></script>
+    <script type="text/javascript" src="src/detector.js"></script>
+    <script type="text/javascript" src="src/formatinf.js"></script>
+    <script type="text/javascript" src="src/errorlevel.js"></script>
+    <script type="text/javascript" src="src/bitmat.js"></script>
+    <script type="text/javascript" src="src/datablock.js"></script>
+    <script type="text/javascript" src="src/bmparser.js"></script>
+    <script type="text/javascript" src="src/datamask.js"></script>
+    <script type="text/javascript" src="src/rsdecoder.js"></script>
+    <script type="text/javascript" src="src/gf256poly.js"></script>
+    <script type="text/javascript" src="src/gf256.js"></script>
+    <script type="text/javascript" src="src/decoder.js"></script>
+    <script type="text/javascript" src="src/qrcode.js"></script>
+    <script type="text/javascript" src="src/findpat.js"></script>
+    <script type="text/javascript" src="src/alignpat.js"></script>
+    <script type="text/javascript" src="src/databr.js"></script>
+
+    <script type="text/javascript">
+        var gCtx = null;
+        var gCanvas = null;
+        var mediaStreamTrack = null;
+        window.startQRCode = 1;
+
+        function dragenter(e) {
+            e.stopPropagation();
+            e.preventDefault();
+        }
+
+        function dragover(e) {
+            e.stopPropagation();
+            e.preventDefault();
+        }
+
+        function drop(e) {
+            e.stopPropagation();
+            e.preventDefault();
+
+            var dt = e.dataTransfer;
+            var files = dt.files;
+
+            handleFiles(files);
+        }
+
+        function handleFiles(f) {
+            var o = [];
+            for (var i = 0; i < f.length; i++) {
+                var reader = new FileReader();
+
+                reader.onload = (function(theFile) {
+                    return function(e) { //上传图片走此处
+                        qrcode.decode(e.target.result);
+                    };
+                })(f[i]);
+
+                // Read in the image file as a data URL.
+                reader.readAsDataURL(f[i]);
+            }
+        }
+
+        function utf8ToUtf16(s) { //将utf-8字符串转码为unicode字符串，要不读取的二维码信息包含中文会乱码
+            if (!s) {
+                return;
+            }
+
+            var i, codes, bytes, ret = [],
+                len = s.length;
+            for (i = 0; i < len; i++) {
+                codes = [];
+                codes.push(s.charCodeAt(i));
+                if (((codes[0] >> 7) & 0xff) == 0x0) {
+                    //单字节  0xxxxxxx  
+                    ret.push(s.charAt(i));
+                } else if (((codes[0] >> 5) & 0xff) == 0x6) {
+                    //双字节  110xxxxx 10xxxxxx  
+                    codes.push(s.charCodeAt(++i));
+                    bytes = [];
+                    bytes.push(codes[0] & 0x1f);
+                    bytes.push(codes[1] & 0x3f);
+                    ret.push(String.fromCharCode((bytes[0] << 6) | bytes[1]));
+                } else if (((codes[0] >> 4) & 0xff) == 0xe) {
+                    //三字节  1110xxxx 10xxxxxx 10xxxxxx  
+                    codes.push(s.charCodeAt(++i));
+                    codes.push(s.charCodeAt(++i));
+                    bytes = [];
+                    bytes.push((codes[0] << 4) | ((codes[1] >> 2) & 0xf));
+                    bytes.push(((codes[1] & 0x3) << 6) | (codes[2] & 0x3f));
+                    ret.push(String.fromCharCode((bytes[0] << 8) | bytes[1]));
+                }
+            }
+            return ret.join('');
+        }
+
+        function qrCodeBegin() {
+            initVideo(); //开启摄像头
+            initCanvas(600, 600);
+
+            qrcode.callback = function(data) { //扫码结果
+                console.log(data);
+
+                gCanvas.style.visibility = 'hidden';
+                mediaStreamTrack.getTracks().forEach(function(track) {
+                    track.stop();
+                });
+                video.style.visibility = 'hidden';
+                parent.scanQRCodeOver(data);
+            };
+        }
+
+        function captureToCanvas() {
+            try {
+                gCtx.drawImage(video, 0, 0);
+                try {
+                    qrcode.decode();
+                } catch (e) {
+                    console.log(e);
+                    gCtx.clearRect(0, 0, 600, 600); //此处一定要添加，否则会卡顿
+                    setTimeout(captureToCanvas, 500);
+                };
+            } catch (e) {
+                console.log(e);
+                gCtx.clearRect(0, 0, 600, 600); //此处一定要添加，否则会卡顿
+                setTimeout(captureToCanvas, 500);
+            };
+        }
+
+        function initCanvas(w, h) {
+            gCanvas = document.getElementById("qr-canvas");
+            gCanvas.style.visibility = 'visible';
+            gCanvas.addEventListener("dragenter", dragenter, false);
+            gCanvas.addEventListener("dragover", dragover, false);
+            gCanvas.addEventListener("drop", drop, false);
+            gCtx = gCanvas.getContext("2d");
+            gCtx.clearRect(0, 0, 600, 600);
+            setTimeout(captureToCanvas, 500);
+        }
+
+        function initVideo() {
+            var video = document.getElementById("video");
+            video.style.visibility = 'visible';
+
+            var constraints = {
+                video: {
+                    width: 600,
+                    height: 600
+                }
+            };
+            var promise = navigator.mediaDevices.getUserMedia(constraints);
+            promise.then(function(MediaStream) {
+                mediaStreamTrack = MediaStream;
+                qrCode = 2;
+                video.srcObject = MediaStream;
+                video.play();
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <video id="video" width="600px" height="600px" autoplay="autoplay"></video>
+    <canvas id="qr-canvas" width="600px" height="600px"></canvas>
+
+
+    <script language="javascript">
+        // var toCheckQRcode = function() {
+        //     if (window.startQRCode == 1) { //开始扫码
+        //         qrCodeBegin();
+        //     } else {
+        //         setTimeout(toCheckQRcode, 1000);
+        //     }
+        // }
+        // setTimeout(toCheckQRcode, 1000);
+        qrCodeBegin();
+    </script>
+</body>
+
+</html>

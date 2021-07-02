@@ -1,0 +1,3194 @@
+/*xform*/
+.xform-item {
+    line-height: 22px;
+    margin-bottom: 6px;
+    min-height: 22px;
+    height: auto !important;
+    height: 22px;
+    cursor: default;
+    position: relative;
+}
+
+.xform-item.rgt {
+    float: right;
+}
+
+.xform-label,
+.xform-counter {
+    float: left;
+    margin-right: 6px;
+    font-style: normal;
+    overflow: hidden;
+    line-height: 22px !important;
+    line-height: 24px;
+    height: 22px;
+    font-size: 12px;
+}
+
+.xform-label {}
+
+.xform-counter {}
+
+.xform-label b {
+    margin: 3px 3px 0 0;
+}
+
+.xform-item .xform-text {
+    padding: 2px 3px;
+    height: 16px;
+}
+
+.xform-text {
+    font-size: 12px;
+    line-height: 16px;
+    border: solid 1px #B5B8C8;
+    background: #fff url(images/XControls/text-bg.gif) repeat-x;
+    margin-left: 0;
+}
+
+.xform-text.xform-text-disabled {
+    background: #f1f1f1;
+    cursor:not-allowed;
+}
+
+.xform-item textarea.xform-text {
+    padding: 2px 3px 0;
+    float: left;
+    overflow: auto;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+}
+
+.xform-select {
+    border: solid 1px #B5B8C8;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    float: left;
+}
+
+.xform-text-rule {
+    background: url(images/XControls/text-rule.png) no-repeat;
+}
+
+.xform-item input {
+    float: left;
+}
+
+input.xform-focus,
+textarea.xform-focus {
+    border: 1px solid #EFA100;
+    outline: 2px solid #FFDC97;
+}
+
+.xform-item .linkbutton {
+    color: #0B60AF;
+    float: left;
+    padding: 0 6px;
+    line-height: 22px;
+}
+
+.xform-item .linkbutton:hover,
+.xform-item .linkbutton-hover {
+    background-color: #0B60AF;
+    color: #fff;
+    text-decoration: none;
+}
+
+.xform-item .xform-radio {
+    margin: 5px 5px 0 5px;
+}
+
+.xform-dfn {
+    font-style: normal;
+    float: left;
+    line-height: 22px;
+}
+
+.xform-item .text-readonly {
+    cursor: default;
+    border: none;
+    background: transparent;
+    padding: 3px 4px;
+}
+
+.xform-search {
+    width: 17px;
+    height: 21px;
+    background: url(images/XControls/search-trigger.gif) no-repeat;
+    border-bottom: solid 1px #b5b8c8;
+}
+
+.xform-search:hover,
+.xform-search-hover {
+    background-position: -17px 0;
+    border-bottom-color: #7eadd9;
+}
+
+.xform-buttons {
+    height: 22px;
+    cursor: default;
+}
+
+.xform-buttons-left {
+    float: left;
+}
+
+.xform-buttons-right {
+    float: right;
+}
+
+.xform-buttons .xbutton {
+    margin: 0 2px;
+}
+
+.xform-buttons-center {
+    text-align: center;
+}
+
+.xform-buttons-center .xbutton {
+    float: none;
+    display: inline-block;
+}
+
+.xform-prompt {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    color: #999;
+    padding-left: 22px;
+}
+
+.xform-prompt.error,
+.xform-prompt.accept,
+.xform-prompt.info,
+.xform-prompt.warning {
+    background: url(images/XControls/form-icon.png) no-repeat;
+}
+
+.xform-prompt.error {
+    background-position: 0 0;
+}
+
+.xform-prompt.accept {
+    background-position: 0 -22px;
+}
+
+.xform-prompt.info {
+    background-position: 0 -44px;
+}
+
+.xform-prompt.warning {
+    background-position: 0 -66px;
+}
+
+.xform-prompt em {}
+
+.xform-prompt em.red {
+    color: #f00;
+}
+
+.xform-hint {
+    padding-left: 66px;
+    color: #f00;
+    height: 22px;
+    line-height: 22px;
+}
+
+.xform-counter {
+    display: inline-block;
+    width: 60px;
+    overflow: hidden;
+}
+
+.xform-help {
+    clear: left;
+    color: #666;
+    margin-left: 6px;
+    line-height: 16px;
+}
+
+.xform-verifyfield {
+    float: left;
+}
+
+.xform-verifyfield .xform-text {
+    font-family: Courier New;
+}
+
+.xform-file-wrap {
+    float: left;
+    position: relative;
+}
+
+.xform-file-wrap .xform-text {
+    position: relative;
+    z-index: 2;
+}
+
+.xform-file-wrap .button {
+    margin-left: 2px;
+}
+
+.xform-file {
+    position: absolute;
+    z-index: 3;
+    right: 70px;
+}
+
+.xform-frame {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+
+.xform-checkbox {
+    margin: 5px 3px 0 0;
+}
+
+.xform-textarea-wrap {
+    overflow: hidden !important;
+}
+
+.xform-default-option {
+    color: #999;
+}
+
+.xform-radios {}
+
+.xform-radios label {}
+
+.xform-radios-vertical label {
+    clear: left;
+}
+
+/*xprogressbox*/
+.xprogressbox {
+    display: inline-block;
+}
+
+.xprogressbox-outer {
+    border: solid 1px #8ea4c1;
+}
+
+.xprogressbox-inner {
+    border: solid 1px #e6eaed;
+}
+
+.xprogressbox-body {
+    background: #ccd8e7;
+    padding-bottom: 14px;
+}
+
+.xprogressbox-title {
+    padding-left: 5px;
+    line-height: 22px;
+}
+
+.xprogressbox-title strong {
+    color: #15429a;
+}
+
+.xprogressbox-desc {
+    margin: 0 14px;
+}
+
+.xprogressbox-desc p {
+    color: #22004d;
+    line-height: 22px;
+}
+
+.xprogressbox-box {
+    width: 266px;
+    margin: 0 14px;
+    border: solid 1px #6593cf;
+    background: #E0E8F3 url(images/ajax/progress-bg.gif) repeat-x;
+    height: 18px;
+    position: relative;
+    text-align: center;
+}
+
+.xprogressbox-bar {
+    background: url(images/ajax/progress.gif) repeat-x left center;
+    height: 18px;
+    width: 1px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.xprogressbox-text {
+    color: #fff;
+    font-size: 12px;
+}
+
+/*xtoolbar*/
+.xtoolbar {
+    padding: 3px;
+    background: url(images/XControls/bgx.png) repeat-x 0 -200px;
+    position: relative !important;
+}
+
+.xtoolbar,
+.xtoolbar-left,
+.xtoolbar-right,
+.xtoolbar-label {
+    height: 22px;
+}
+
+.xtoolbar-separator {
+    float: left;
+    border-left: solid 1px #9ac6ff;
+    border-right: solid 1px #fff;
+    height: 14px;
+    margin: 4px 2px;
+}
+
+.xtoolbar-left {
+    float: left;
+}
+
+.xtoolbar-left * {
+    float: left;
+}
+
+.xtoolbar-right {
+    float: right;
+}
+
+.xtoolbar-label {
+    float: left;
+    line-height: 22px;
+    padding-left: 8px;
+}
+
+.xtoolbar label {
+    height: 22px;
+    line-height: 23px;
+    margin-right: 4px;
+    font-size: 12px;
+}
+
+.xtoolbar .toolbutton {
+    float: left;
+    display: block;
+}
+
+.xtoolbar .xbutton-left {
+    visibility: hidden;
+    background-position: 1000px 1000px;
+}
+
+.xtoolbar .xbutton-right {
+    visibility: hidden;
+    background-position: 1000px 1000px;
+}
+
+.xtoolbar .xbutton-center {
+    background-position: 0 -999px;
+}
+
+.xtoolbar .xbutton.over .xbutton-left {
+    visibility: visible;
+    background-position: 0 -22px;
+}
+
+.xtoolbar .xbutton.over .xbutton-right {
+    visibility: visible;
+    background-position: -2px -22px;
+}
+
+.xtoolbar .xbutton.over .xbutton-center {
+    background-position: 0 -110px;
+}
+
+.xtoolbar .xbutton.toggle .xbutton-left,
+.xbutton.push .xbutton-left {
+    visibility: visible;
+    background-position: 0 -44px;
+}
+
+.xtoolbar .xbutton.toggle .xbutton-right,
+.xbutton.push .xbutton-right {
+    visibility: visible;
+    background-position: -2px -44px;
+}
+
+.xtoolbar .xbutton.toggle .xbutton-center,
+.xbutton.push .xbutton-center {
+    background-position: 0 -132px;
+}
+
+.xtoolbar .xbutton.disabled .xbutton-left {
+    visibility: hidden;
+    background-image: none;
+}
+
+.xtoolbar .xbutton.disabled .xbutton-right {
+    visibility: hidden;
+    background-image: none;
+}
+
+.xtoolbar .xbutton.disabled .xbutton-center {
+    background-image: none;
+}
+
+.xtoolbar .xbutton button,
+.xtoolbar .xbutton input,
+.xtoolbar .xbutton a {
+    padding: 0 2px;
+}
+
+.xtoolbar-vertical {
+    text-align: center;
+}
+
+.xtoolbar-vertical .xbutton {
+    float: none;
+    display: inline-block;
+}
+
+/*xtree*/
+.xtree {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-user-select: none;
+}
+
+.xtree-node {}
+
+.xtree-head {
+    height: 16px;
+    padding: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.xtree-icon {
+    height: 16px;
+    width: 16px;
+    float: none;
+    display: inline;
+}
+
+.xtree-text {
+    line-height: 16px;
+    white-space: nowrap;
+    margin-left: 4px;
+}
+
+.xtree-list {
+    padding-left: 16px;
+}
+
+.xtree-head-hover,
+.xtree-head:hover {
+    background: #eee;
+}
+
+.xtree-head-select,
+.xtree-head:hover.xtree-head-select {
+    background: #D9E8FB;
+    border-style: none;
+    padding: 3px;
+}
+
+.xtree-head-active {
+    border: dotted 1px #A3BAE9 !important;
+    padding: 2px !important;
+}
+
+.xtree-plus,
+.xtree-arrow,
+.xtree-arrow2 {
+    background: url(images/XControls/xtree.gif) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.xtree-arrow {
+    background-position: 0 -16px;
+}
+
+.xtree-arrow2 {
+    background-position: 0 -32px;
+}
+
+.xtree-collapse .xtree-list {
+    display: none;
+}
+
+.xtree-collapse .xtree-plus {
+    background-position: -16px 0;
+}
+
+.xtree-collapse .xtree-arrow {
+    background-position: -16px -16px;
+}
+
+.xtree-collapse .xtree-arrow2 {
+    background-position: -16px -32px;
+}
+
+.xtree-nochild .xtree-plus {
+    background-image: none;
+}
+
+.xtree-nochild .xtree-arrow {
+    background-image: none;
+}
+
+.xtree-nochild .xtree-arrow2 {
+    background-image: none;
+}
+
+/*xtabpane*/
+.xtabpane {}
+
+.xtabpane-autoheight {
+    position: relative;
+}
+
+.xtabpane-h {
+    height: 23px;
+    background: #dfe8f6 url(images/XControls/xtabpane-top.png) repeat-x 0 0;
+    overflow: hidden;
+    padding: 0 0 2px;
+}
+
+.xtabpane-l,
+.xtabpane-r {
+    height: 25px;
+    width: 3px;
+}
+
+.xtabpane-l {
+    float: left;
+}
+
+.xtabpane-r {
+    float: right;
+}
+
+.xtabpane-u {
+    float: left;
+}
+
+.xtabpane-u li {
+    float: left;
+    height: 22px;
+    padding: 0 3px;
+    position: relative;
+    margin-right: 3px;
+}
+
+.xtabpane-cl,
+.xtabpane-cr {
+    width: 3px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    background: url(images/XControls/xtabpane-top.png) no-repeat;
+}
+
+.xtabpane-cl {
+    left: 0;
+    background-position: 0 -150px;
+}
+
+.xtabpane-cr {
+    right: 0;
+    background-position: -3px -150px;
+}
+
+.xtabpane-u .xtabpane-hover .xtabpane-cl {
+    background-position: 0 -90px;
+}
+
+.xtabpane-u .xtabpane-hover .xtabpane-cr {
+    background-position: -3px -90px;
+}
+
+.xtabpane-u .xtabpane-hover a {
+    background-position: 0 -120px;
+}
+
+.xtabpane-u li.active .xtabpane-cl {
+    background-position: 0 -30px;
+}
+
+.xtabpane-u li.active .xtabpane-cr {
+    background-position: -3px -30px;
+}
+
+.xtabpane-u li a {
+    float: left;
+    color: #15428B;
+    background: url(images/XControls/xtabpane-top.png) repeat-x 0 -180px;
+    display: block;
+    line-height: 16px;
+    height: 16px;
+    padding: 3px 16px;
+    text-decoration: none;
+}
+
+.xtabpane-u li.active a {
+    background-position: 0 -60px;
+}
+
+.xtabpane-b {
+    border: solid 1px #99bbe8;
+    border-top: none;
+    background: #fff;
+    overflow: hidden;
+}
+
+.xtabpane-autoheight .xtabpane-b {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+.xtabpane-i {
+    display: none;
+}
+
+.xtabpane-i.active {
+    display: block;
+}
+
+.xtabpane-bottom {
+    position: relative;
+}
+
+.xtabpane-bottom .xtabpane-h {
+    height: 23px;
+    background: url(images/XControls/xtabpane-bottom.png) repeat-x;
+    overflow: hidden;
+    padding: 2px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.xtabpane-bottom .xtabpane-l,
+.xtabpane-bottom .xtabpane-r {
+    display: none;
+}
+
+.xtabpane-bottom .xtabpane-l {
+    float: left;
+    background-position: 0 bottom;
+}
+
+.xtabpane-bottom .xtabpane-r {
+    float: right;
+    background-position: right bottom;
+}
+
+.xtabpane-bottom .xtabpane-u {
+    padding: 0 2px;
+}
+
+.xtabpane-bottom .xtabpane-u li {
+    float: left;
+    height: 23px;
+    padding: 0 3px;
+    position: relative;
+    margin-right: 3px;
+}
+
+.xtabpane-bottom .xtabpane-cl,
+.xtabpane-bottom .xtabpane-cr {
+    width: 3px;
+    height: 23px;
+    position: absolute;
+    top: 0;
+    background: url(images/XControls/xtabpane-bottom.png) no-repeat;
+}
+
+.xtabpane-bottom .xtabpane-cl {
+    left: 0;
+    background-position: 0 -150px;
+}
+
+.xtabpane-bottom .xtabpane-cr {
+    right: 0;
+    background-position: -3px -150px;
+}
+
+.xtabpane-bottom .xtabpane-u .xtabpane-hover .xtabpane-cl {
+    background-position: 0 -90px;
+}
+
+.xtabpane-bottom .xtabpane-u .xtabpane-hover .xtabpane-cr {
+    background-position: -3px -90px;
+}
+
+.xtabpane-bottom .xtabpane-u .xtabpane-hover a {
+    background-position: 0 -120px;
+}
+
+.xtabpane-bottom .xtabpane-u li.active .xtabpane-cl {
+    background-position: 0 -30px;
+}
+
+.xtabpane-bottom .xtabpane-u li.active .xtabpane-cr {
+    background-position: -3px -30px;
+}
+
+.xtabpane-bottom .xtabpane-u li a {
+    float: left;
+    color: #15428B;
+    background: url(images/XControls/xtabpane-bottom.png) repeat-x 0 -180px;
+    display: block;
+    line-height: 16px;
+    height: 16px;
+    padding: 3px 16px 4px;
+    text-decoration: none;
+}
+
+.xtabpane-bottom .xtabpane-u li.active a {
+    background-position: 0 -60px;
+}
+
+.xtabpane-bottom .xtabpane-b {
+    border: none;
+    border-bottom: solid 1px #99bbe8;
+    background: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 27px;
+    width: 100%;
+}
+
+.xtabpane-noborder .xtabpane-b {
+    border: none;
+}
+
+/*xpanel*/
+.xpanel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.xpanel.xpanel-manual {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+
+.xpanel-move {
+    position: absolute;
+}
+
+.xpanel-head {
+    border: solid 1px #99bbe8;
+    background: url(images/XControls/xpanel.png) repeat-x;
+    height: 16px;
+    padding: 4px;
+}
+
+.xpanel-move .xpanel-head {
+    -webkit-user-select: none;
+    cursor: move;
+}
+
+.xpanel-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+    overflow: hidden;
+    font-size: 1px;
+}
+
+.xpanel-title {
+    color: #15428B;
+    float: left;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.xpanel-b {
+    width: 15px;
+    height: 15px;
+    float: right;
+    background: url(images/XControls/toolkits.png) no-repeat;
+    cursor: pointer;
+    font-size: 1px;
+    margin: 1px 0 0 4px;
+}
+
+.xpanel-l .xpanel-b {
+    background-position: 0 -180px;
+}
+
+.xpanel-r .xpanel-b {
+    background-position: 0 -165px;
+}
+
+.xpanel-u .xpanel-b {
+    background-position: 0 -60px;
+}
+
+.xpanel-d .xpanel-b {
+    background-position: 0 -75px;
+}
+
+.xpanel-l.xpanel-collapsed .xpanel-b {
+    background-position: 0 -165px;
+}
+
+.xpanel-r.xpanel-collapsed .xpanel-b {
+    background-position: 0 -180px;
+}
+
+.xpanel-u.xpanel-collapsed .xpanel-b {
+    background-position: 0 -75px;
+}
+
+.xpanel-d.xpanel-collapsed .xpanel-b {
+    background-position: 0 -60px;
+}
+
+.xpanel-l .xpanel-b:hover {
+    background-position: -15px -180px;
+}
+
+.xpanel-r .xpanel-b:hover {
+    background-position: -15px -165px;
+}
+
+.xpanel-u .xpanel-b:hover {
+    background-position: -15px -60px;
+}
+
+.xpanel-d .xpanel-b:hover {
+    background-position: -15px -75px;
+}
+
+.xpanel-l.xpanel-collapsed .xpanel-b:hover {
+    background-position: -15px -165px;
+}
+
+.xpanel-r.xpanel-collapsed .xpanel-b:hover {
+    background-position: -15px -180px;
+}
+
+.xpanel-u.xpanel-collapsed .xpanel-b:hover {
+    background-position: -15px -75px;
+}
+
+.xpanel-d.xpanel-collapsed .xpanel-b:hover {
+    background-position: -15px -60px;
+}
+
+.xpanel-x {
+    background-position: 0 0;
+}
+
+.xpanel-x:hover {
+    background-position: -15px 0;
+}
+
+.xpanel-normal {}
+
+.xpanel-normal .xpanel-head {}
+
+.xpanel-body {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 26px;
+    bottom: 0;
+}
+
+.xpanel-normal .xpanel-body {
+    border: solid 1px #99bbe8;
+    border-top-style: none;
+    border-top-width: 0;
+    background: #fff;
+}
+
+.xpanel-manual .xpanel-body {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+
+.xpanel-round {}
+
+.xpanel-round .xpanel-head {
+    border-left: none;
+    border-right: none;
+    padding: 3px 4px;
+    position: relative;
+}
+
+.xpanel-tl,
+.xpanel-tr {
+    height: 24px;
+    background: url(images/XControls/xpanel.png) no-repeat;
+}
+
+.xpanel-tl {
+    background-position: 0 -25px;
+    padding-left: 2px;
+}
+
+.xpanel-tr {
+    background-position: right -50px;
+    padding-right: 2px;
+}
+
+.xpanel-c {
+    border: solid 1px #99bbe8;
+    border-top: none;
+    border-bottom: none;
+}
+
+.xpanel-round .xpanel-body {
+    position: relative;
+    background: #dfe8f6;
+    border: solid 1px #fff;
+    border-top: none;
+    border-bottom: none;
+}
+
+.xpanel-bl,
+.xpanel-br,
+.xpanel-bc {
+    background: url(images/XControls/xpanel.png) no-repeat;
+    height: 5px;
+    line-height: 1px;
+    overflow: hidden;
+    font-size: 1px;
+}
+
+.xpanel-bl {
+    padding-left: 2px;
+    background-position: 0 -81px;
+}
+
+.xpanel-br {
+    padding-right: 2px;
+    background-position: right -87px;
+}
+
+.xpanel-bc {
+    background-position: 0 -75px;
+    background-repeat: repeat-x;
+}
+
+.xpanel-collapsed .xpanel-body {
+    display: none;
+}
+
+.xpanel-collapsed.xpanel-h {
+    width: 25px !important;
+    position: relative;
+}
+
+.xpanel-collapsed.xpanel-h .xpanel-head {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: none;
+}
+
+.xpanel-collapsed.xpanel-h .xpanel-b {
+    position: absolute;
+    top: 4px;
+    margin-left: 0;
+}
+
+.xpanel-collapsed.xpanel-h .xpanel-title {
+    position: absolute;
+    top: 30px;
+    width: 15px;
+    text-align: center;
+}
+
+.xpanel-scroll .xpanel-body {
+    overflow: auto;
+}
+
+/*xlistview*/
+.xlistview {
+    cursor: default;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.xlistview .xlistview-l * {
+    -webkit-user-select: none;
+}
+
+.xlistview-selectable .xlistview-l * {
+    -webkit-user-select: text;
+}
+
+.xlistview-h {
+    background: url(images/XControls/xlistview.png) repeat-x;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.xlistview-colHeader {
+    height: 16px;
+    padding: 4px 8px 4px 4px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.xlistview-colHeader-hover,
+.xlistview-colHeader-push {
+    background: url(images/XControls/xlistview.png) repeat-x;
+}
+
+.xlistview-colHeader-hover {
+    background-position: 0 -25px;
+}
+
+.xlistview-colHeader-push {
+    background-position: 0 -50px;
+}
+
+.xlistview-colSplitter {
+    background: url(images/XControls/xlistview.png) no-repeat 0 -75px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 24px;
+    top: 0;
+    width: 8px;
+    cursor: col-resize;
+}
+
+.xlistview-colSplitter-hover {
+    background-position: 0 -100px;
+}
+
+.xlistview-colSplitter-push {
+    background-position: 0 -125px;
+}
+
+.xlistview-colSplitter-prevHover {
+    background-position: 0 -150px;
+}
+
+.xlistview-colSplitter-prevPush {
+    background-position: 0 -175px;
+}
+
+.xlistview-sort {
+    background: url(images/XControls/xlistview.png) no-repeat;
+    display: none;
+    width: 8px;
+    height: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+
+.xlistview-asc {
+    background-position: 0 -300px;
+    display: block;
+}
+
+.xlistview-desc {
+    background-position: 0 -305px;
+    display: block;
+}
+
+.xlistview-colTitle {
+    line-height: 16px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.xlistview-b {
+    overflow: auto;
+    background: #fff;
+    position: absolute;
+    top: 24px;
+    bottom: 27px;
+    width: 100%;
+    outline: 0;
+}
+
+.xlistview ul.xlistview-l {}
+
+.xlistview ol.xlistview-l {
+    list-style-type: decimal-leading-zero;
+    list-style-position: outside;
+}
+
+.xlistview-listItem {
+    border: solid 1px;
+    border-color: #FFFFFF #EDEDED #EDEDED;
+    white-space: nowrap;
+    min-height: 24px;
+    height: auto !important;
+    height: 24px;
+    overflow: hidden !important;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.xlistview-listCell {
+    overflow: hidden;
+    height: 16px;
+    margin: 4px 8px 4px 4px;
+    display: inline-block;
+    float: left;
+    text-overflow: ellipsis;
+}
+
+.xlistview-listCell-last {
+    margin-right: 2px;
+}
+
+.xlistview-listText {
+    white-space: nowrap;
+    float: left;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+.xlistview-listText input {
+    margin: 0;
+}
+
+.xlistview-listItem:hover {
+    background: url(images/XControls/xlistview.png) repeat-x 0 -200px;
+    border-color: #ddd;
+}
+
+.xlistview-plain .xlistview-listItem:hover {
+    background-image: none;
+    background-color: #dfe8f6;
+}
+
+.xlistview-f {
+    height: 22px;
+    background: url(images/XControls/xlistview.png) repeat-x 0 -250px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    padding: 3px 2px 2px;
+}
+
+.xlistview-splitShadow,
+.xlistview-splitCover {
+    position: absolute;
+    cursor: col-resize;
+    top: 0;
+    bottom: 0;
+}
+
+.xlistview-splitShadow {
+    width: 2px;
+    background-color: #999;
+    z-index: 101;
+}
+
+.xlistview-splitCover {
+    width: 100%;
+    left: 0;
+    z-index: 100;
+}
+
+.x-listItem-selected,
+.xlistview-plain .x-listItem-selected.xlistview-listItem:hover {
+    background: #fceba7;
+    border-color: #dfe8f6;
+    border-style: solid !important;
+}
+
+.xlistview-plain .x-listItem-selected {
+    background: #fceba7;
+    border-color: #dfe8f6;
+    border-style: solid !important;
+}
+
+.x-listItem-selected,
+.x-listItem-selected:hover {
+    background: url(images/XControls/xlistview.png) repeat-x 0 -225px;
+    background: #dfe8f6;
+}
+
+.x-listItem-activate,
+x-listItem-activate:hover,
+.x-listItem-activate.x-listItem-selected:hover {
+    padding: 0;
+    border: solid 1px #99bbe8;
+}
+
+.xlistview-plain .xlistview-listText {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.xlistview-plain .xlistview-listCell {
+    height: auto;
+}
+
+.xlistview-noresize {
+    cursor: default;
+}
+
+.xlistview-page-first,
+.xlistview-page-prev,
+.xlistview-page-next,
+.xlistview-page-last,
+.xlistview-page-go {
+    background: url(images/XControls/xlistview-button.gif) no-repeat;
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.xlistview-page-go {
+    background-position: 0 0;
+}
+
+.xlistview-page-first {
+    background-position: 0 -23px;
+}
+
+.xlistview-page-prev {
+    background-position: 0 -46px;
+}
+
+.xlistview-page-next {
+    background-position: 0 -69px;
+}
+
+.xlistview-page-last {
+    background-position: 0 -92px;
+}
+
+.xlistview-page-go:hover {
+    background-position: -23px 0;
+}
+
+.xlistview-page-first:hover {
+    background-position: -23px -23px;
+}
+
+.xlistview-page-prev:hover {
+    background-position: -23px -46px;
+}
+
+.xlistview-page-next:hover {
+    background-position: -23px -69px;
+}
+
+.xlistview-page-last:hover {
+    background-position: -23px -92px;
+}
+
+.xlistview-page-go-push,
+.xlistview-page-go-push:hover {
+    background-position: -46px 0;
+}
+
+.xlistview-page-first-push,
+.xlistview-page-first-push:hover {
+    background-position: -46px -23px;
+}
+
+.xlistview-page-prev-push,
+.xlistview-page-prev-push:hover {
+    background-position: -46px -46px;
+}
+
+.xlistview-page-next-push,
+.xlistview-page-next-push:hover {
+    background-position: -46px -69px;
+}
+
+.xlistview-page-last-push,
+.xlistview-page-last-push:hover {
+    background-position: -46px -92px;
+}
+
+.xlistview-page-go-disabled,
+.xlistview-page-go-disabled:hover {
+    background-position: -69px 0;
+}
+
+.xlistview-page-first-disabled,
+.xlistview-page-first-disabled:hover {
+    background-position: -69px -23px;
+}
+
+.xlistview-page-prev-disabled,
+.xlistview-page-prev-disabled:hover {
+    background-position: -69px -46px;
+}
+
+.xlistview-page-next-disabled,
+.xlistview-page-next-disabled:hover {
+    background-position: -69px -69px;
+}
+
+.xlistview-page-last-disabled,
+.xlistview-page-last-disabled:hover {
+    background-position: -69px -92px;
+}
+
+.xlistview-page-text {
+    height: 16px;
+    margin-top: 1px;
+    width: 32px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.xlistview-page-separator {
+    float: left;
+    border-left: solid 1px #9ac6ff;
+    border-right: solid 1px #fff;
+    height: 14px;
+    margin: 4px 3px;
+}
+
+.xlistview-page-label {
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+    margin-right: 4px;
+}
+
+.xlistview-pageCount {
+    float: left;
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 4px;
+}
+
+.xlistview-page-label em {
+    margin: 0 3px;
+}
+
+.xlistview-f .xdropdownlist {
+    margin-right: 6px;
+}
+
+.xlistview-noscroll {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.xlistview-noscroll .xlistview-h {
+    position: static;
+}
+
+.xlistview-noscroll .xlistview-b {
+    position: static;
+}
+
+/*xlistbox*/
+.xlistbox {
+    -webkit-user-select: none;
+    overflow: auto;
+}
+
+.xlistbox-item {
+    height: 16px;
+    line-height: 16px;
+    padding: 3px;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.xlistbox-item-hover,
+.xlistbox-item:hover {
+    background: #c4e3f8;
+}
+
+.xlistbox-active,
+.xlistbox-item:hover.xlistbox-active {
+    background: url(images/XControls/xgrouplist.png) repeat-x;
+}
+
+/*xgrouplist*/
+.xgrouplist {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.xgrouplist-item {
+    overflow: visible;
+}
+
+.xgrouplist-groupHead {
+    height: 16px;
+    padding: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.xgrouplist-itemHead {
+    height: 16px;
+    padding: 3px 3px 3px 19px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.xgrouplist-icon {
+    height: 16px;
+    width: 16px;
+    float: none;
+    display: inline;
+}
+
+.xgrouplist-text {
+    line-height: 16px;
+    white-space: nowrap;
+    margin-left: 4px;
+    height: 16px;
+    overflow: visible;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.xgrouplist-groupHead-hover,
+.xgrouplist-groupHead:hover {
+    background: #c4e3f8;
+}
+
+.xgrouplist-groupHead-select,
+.xgrouplist-groupHead:hover.xgrouplist-groupHead-select,
+.xgrouplist-itemHead-select,
+.xgrouplist-itemHead:hover.xgrouplist-itemHead-select {
+    background: url(images/XControls/xgrouplist.png) repeat-x;
+}
+
+.xgrouplist-itemHead-hover,
+.xgrouplist-itemHead:hover {
+    background: #c4e3f8;
+}
+
+.xgrouplist-collapse .xgrouplist-list {
+    display: none;
+}
+
+.xgrouplist-plus,
+.xgrouplist-arrow,
+.xgrouplist-arrow2 {
+    background: url(images/XControls/xgrouplist.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.xgrouplist-plus {
+    background-position: 0 -24px;
+}
+
+.xgrouplist-arrow {
+    background-position: 0 -58px;
+}
+
+.xgrouplist-arrow2 {
+    background-position: 0 -92px;
+}
+
+.xgrouplist-collapse .xgrouplist-plus {
+    background-position: 0 -41px;
+}
+
+.xgrouplist-collapse .xgrouplist-arrow {
+    background-position: 0 -75px;
+}
+
+.xgrouplist-collapse .xgrouplist-arrow2 {
+    background-position: 0 -109px;
+}
+
+.xgrouplist-nochild .xgrouplist-plus,
+.xgrouplist-nochild .xgrouplist-arrow,
+.xgrouplist-nochild .xgrouplist-arrow2 {
+    visibility: hidden;
+}
+
+/*xbutton*/
+.xbutton {
+    height: 22px;
+    cursor: default;
+    -webkit-user-select: none;
+    overflow: hidden;
+    float: left;
+}
+
+.xbutton * {
+    -webkit-user-select: none;
+}
+
+.xbutton-left,
+.xbutton-right,
+.xbutton-center,
+.xbutton-arrow {
+    background-image: url(images/XControls/button.gif);
+    float: left;
+}
+
+.xbutton-left,
+.xbutton-right,
+.xbutton-arrow {
+    height: 22px;
+    width: 3px;
+    background-repeat: no-repeat;
+}
+
+.xbutton-center {
+    height: 22px;
+    background-repeat: repeat-x;
+}
+
+.xbutton-center button,
+.xbutton-center input {
+    border: none;
+    padding: 0 12px;
+    background: none;
+    outline: 0 none;
+    line-height: 22px;
+    height: 22px;
+}
+
+.xbutton-center span,
+.xbutton-center input,
+.xbutton-center button {
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.xbutton-center span {
+    padding: 3px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.xbutton-center a {
+    float: left;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 22px;
+    padding: 0 12px;
+}
+
+.xbutton-arrow {
+    height: 16px;
+    width: 11px;
+}
+
+.xbutton-center div {
+    margin-top: 3px;
+}
+
+.xbutton-left {
+    background-position: 0 0;
+}
+
+.xbutton-right {
+    background-position: -2px 0;
+}
+
+.xbutton-center {
+    background-position: 0 -88px;
+    overflow: hidden;
+}
+
+.xbutton.over .xbutton-left {
+    background-position: 0 -22px;
+}
+
+.xbutton.over .xbutton-right {
+    background-position: -2px -22px;
+}
+
+.xbutton.over .xbutton-center {
+    background-position: 0 -110px;
+}
+
+.xbutton.toggle .xbutton-center,
+.xbutton.push .xbutton-left {
+    background-position: 0 -44px;
+}
+
+.xbutton.toggle .xbutton-center,
+.xbutton.push .xbutton-right {
+    background-position: -2px -44px;
+}
+
+.xbutton.toggle .xbutton-center,
+.xbutton.push .xbutton-center {
+    background-position: 0 -132px;
+}
+
+.xbutton.disabled .xbutton-left {
+    background-position: 0 -66px;
+}
+
+.xbutton.disabled .xbutton-right {
+    background-position: -2px -66px;
+}
+
+.xbutton.disabled .xbutton-center {
+    background-position: 0 -154px;
+}
+
+.xbutton.disabled .xbutton-center span {
+    color: #a1a192;
+}
+
+.xbutton-arrow {
+    background-position: 3px -176px;
+}
+
+/*xcheckbox*/
+.xcheckbox {
+    height: 13px;
+    overflow: hidden;
+    padding: 4px 1px 5px 1px;
+    -webkit-user-select: none;
+    float: left;
+    cursor: pointer;
+}
+
+.xcheckbox-icon {
+    background: url(images/XControls/checkbox.gif) no-repeat;
+    width: 13px;
+    height: 13px;
+    float: left;
+    overflow: hidden;
+    margin: 0 3px 0 0;
+    display: inline;
+}
+
+.xcheckbox-text {
+    float: left;
+    line-height: 13px;
+    white-space: nowrap;
+}
+
+.xcheckbox-hover .xcheckbox-icon {
+    background-position: -13px 0;
+}
+
+.xcheckbox-pushed .xcheckbox-icon {
+    background-position: -26px 0;
+}
+
+.xcheckbox-disabled {
+    cursor: default;
+}
+
+.xcheckbox-disabled .xcheckbox-icon {
+    background-position: -39px 0;
+    cursor: default;
+}
+
+.xcheckbox-disabled .xcheckbox-text {
+    color: #808080;
+}
+
+.xcheckbox-checked .xcheckbox-icon {
+    background-position: 0 -13px;
+}
+
+.xcheckbox-checked.xcheckbox-hover .xcheckbox-icon {
+    background-position: -13px -13px;
+}
+
+.xcheckbox-checked.xcheckbox-pushed .xcheckbox-icon {
+    background-position: -26px -13px;
+}
+
+.xcheckbox-checked.xcheckbox-disabled .xcheckbox-icon {
+    background-position: -39px -13px;
+}
+
+/*xradiobutton*/
+.xradiobutton {
+    height: 13px;
+    overflow: hidden;
+    padding: 4px 1px 5px 1px;
+    -webkit-user-select: none;
+    float: left;
+    cursor: pointer;
+}
+
+.xradiobutton-icon {
+    background: url(images/XControls/radiobutton.gif) no-repeat;
+    width: 13px;
+    height: 13px;
+    float: left;
+    overflow: hidden;
+    margin: 0 3px 0 0;
+    display: inline;
+}
+
+.xradiobutton-text {
+    float: left;
+    line-height: 15px;
+}
+
+.xradiobutton-text * {
+    float: right;
+    line-height: 15px;
+    font-style: normal;
+}
+
+.xradiobutton-hover .xradiobutton-icon {
+    background-position: -13px 0;
+}
+
+.xradiobutton-pushed .xradiobutton-icon {
+    background-position: -26px 0;
+}
+
+.xradiobutton-disabled {
+    cursor: default;
+}
+
+.xradiobutton-disabled .xradiobutton-icon {
+    background-position: -39px 0;
+}
+
+.xradiobutton-disabled .xradiobutton-text {
+    color: #808080;
+}
+
+.xradiobutton-checked .xradiobutton-icon {
+    background-position: 0 -13px;
+}
+
+.xradiobutton-checked.xradiobutton-hover .xradiobutton-icon {
+    background-position: -13px -13px;
+}
+
+.xradiobutton-checked.xradiobutton-pushed .xradiobutton-icon {
+    background-position: -26px -13px;
+}
+
+.xradiobutton-checked.xradiobutton-disabled .xradiobutton-icon {
+    background-position: -39px -13px;
+}
+
+/*xdropdownlist*/
+.xdropdownlist {
+    height: 22px;
+    position: relative;
+    float: left;
+    -webkit-user-select: none;
+}
+
+.xdropdownlist-listwrapper {
+    position: fixed;
+    z-index: 10008;
+    background: #fff;
+    border: solid 1px #ccc;
+    overflow: auto;
+    /* float: left; */
+    box-shadow: 1px 1px 4px 0 #ccc;
+    border-radius: 2px;
+}
+
+.xdropdownlist-list {
+    -webkit-user-select: none;
+}
+
+.xdropdownlist-item {
+    line-height: 16px;
+    height: 16px;
+    overflow: hidden;
+    padding: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.xdropdownlist-item.xdropdownlist-item-over {
+    background-color: #ddd;
+}
+
+.xdropdownlist-item.xdropdownlist-item-selected,
+.xdropdownlist-item.xdropdownlist-item-selected.xdropdownlist-item-over {
+    padding: 2px;
+    background-color: #DFE8F6;
+    border: dotted 1px #A3BAE9 !important;
+    border: solid 1px #a3bae9;
+}
+
+.xdropdownlist-textwrapper {
+    height: 22px;
+}
+
+.xdropdownlist-text {
+    padding: 2px 3px;
+    border: solid 1px #B5B8C8;
+    background: #fff url(images/XControls/text-bg.gif) repeat-x;
+    z-index: 2;
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.xdropdownlist-item b,
+.xdropdownlist-text b {
+    margin-right: 3px;
+}
+
+.xdropdownlist-item em,
+.xdropdownlist-text em {
+    line-height: 16px;
+}
+
+.xdropdownlist-trigger {
+    background: url(images/XControls/trigger.gif) no-repeat;
+    width: 17px;
+    height: 21px;
+    float: left;
+    border-bottom: 1px solid #B5B8C8;
+    cursor: pointer;
+}
+
+.xdropdownlist-trigger:hover,
+.xdropdownlist-trigger.xdropdownlist-trigger-over {
+    background-position: -68px 0;
+}
+
+.xdropdownlist-trigger.xdropdownlist-trigger-push {
+    background-position: -85px 0;
+}
+
+/*xeditor*/
+.xeditor {
+    border: solid 1px #99bbe8;
+    position: relative;
+}
+
+.xeditor .x-toolbar {
+    position: relative;
+}
+
+.xeditor-tool-font {
+    line-height: 16px;
+    margin: 1px;
+    border: solid 1px #7EADD9;
+}
+
+.xeditor-tool-bold,
+.xeditor-tool-italic,
+.xeditor-tool-underline,
+.xeditor-tool-growtext,
+.xeditor-tool-shrinktext,
+.xeditor-tool-forecolor,
+.xeditor-tool-backcolor,
+.xeditor-tool-justifyleft,
+.xeditor-tool-justifycenter,
+.xeditor-tool-justifyright,
+.xeditor-tool-createlink,
+.xeditor-tool-unlink,
+.xeditor-tool-insertorderedlist,
+.xeditor-tool-insertunorderedlist,
+.xeditor-tool-sourceedit,
+.xeditor-tool-image,
+.xeditor-tool-attachment {
+    background-image: url(images/XControls/Editor/tb-sprite.gif);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.xeditor-tool-bold {
+    background-position: 0 0;
+}
+
+.xeditor-tool-italic {
+    background-position: -16px 0;
+}
+
+.xeditor-tool-underline {
+    background-position: -32px 0;
+}
+
+.xeditor-tool-growtext {
+    background-position: -160px 0;
+}
+
+.xeditor-tool-shrinktext {
+    background-position: -176px 0;
+}
+
+.xeditor-tool-forecolor {
+    background-position: -48px 0;
+}
+
+.xeditor-tool-backcolor {
+    background-position: -64px 0;
+}
+
+.xeditor-tool-justifyleft {
+    background-position: -112px 0;
+}
+
+.xeditor-tool-justifycenter {
+    background-position: -128px 0;
+}
+
+.xeditor-tool-justifyright {
+    background-position: -144px 0;
+}
+
+.xeditor-tool-createlink {
+    background-position: -208px 0;
+}
+
+.xeditor-tool-unlink {
+    background-position: -224px 0;
+}
+
+.xeditor-tool-insertorderedlist {
+    background-position: -80px 0;
+}
+
+.xeditor-tool-insertunorderedlist {
+    background-position: -96px 0;
+}
+
+.xeditor-tool-sourceedit {
+    background-position: -192px 0;
+}
+
+.xeditor-tool-image {
+    background-position: -240px 0;
+}
+
+.xeditor-tool-attachment {
+    background-position: -256px 0;
+}
+
+.xeditor-textarea {
+    display: none;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    overflow: auto;
+    font-family: Courier New;
+}
+
+.xeditor-frame {
+    background: url(images/XControls/text-bg.gif) repeat-x;
+}
+
+.xeditor-frame {
+    width: 100%;
+    overflow: auto;
+}
+
+.xeditor-resizehandle {
+    height: 7px;
+    border-top: solid 1px #7eadd9;
+    background: #dfe8f6 url(images/XControls/Editor/resizeicon.png) no-repeat center 2px;
+    overflow: hidden;
+    cursor: row-resize;
+}
+
+.xeditor-resizecover {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+/*XDlg*/
+.xdlg {
+    border: solid 1px #494949;
+    position: absolute;
+    z-index: 1001;
+}
+
+.xdlg-head {
+    height: 18px;
+    background: url(images/XControls/xdlg.png) repeat-x;
+    border-bottom: solid 1px #4d95eb;
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.xdlg-title {
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    position: absolute;
+    left: 6px;
+    right: 48px;
+    top: 4px;
+    display: block;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.xdlg-x {
+    background: url(images/XControls/xdlg.png) no-repeat 0 -18px;
+    width: 44px;
+    height: 18px;
+    position: absolute;
+    right: 2px;
+    top: 0;
+}
+
+.xdlg-x:hover {
+    background-position: 0 -36px;
+}
+
+.xdlg-body {
+    background: #fff;
+}
+
+.xdlg-outer {
+    border: solid 1px #6aa6ee;
+    border-top: none;
+}
+
+.xdlg-inner1 {
+    border: solid 1px #4585d3;
+    clear: left;
+}
+
+.xdlg-inner2 {
+    border: solid 1px #3567a3;
+}
+
+.xdlg-inner3 {
+    border: solid 1px #d2e1f6;
+}
+
+.xdlg-move {
+    cursor: move;
+    height: 19px;
+    margin-right: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.xdlg-cover {
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #777;
+    z-index: 1000;
+}
+
+.xdlg-dragcover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    z-index: 600;
+}
+
+/*xvalidator*/
+.xvalidator {
+    background: url(images/XControls/validator.gif) no-repeat;
+    padding: 0 4px 0 22px;
+    line-height: 22px;
+    height: 22px;
+    white-space: nowrap;
+    color: #777;
+    float: left;
+}
+
+.xvalidator-none {
+    background-image: none;
+}
+
+.xvalidator-default {
+    background-position: 0 0;
+}
+
+.xvalidator-ok {
+    background-position: 0 -22px;
+}
+
+.xvalidator-msg {
+    background-position: 0 -44px;
+    background-color: #E9F0FF;
+}
+
+.xvalidator-err {
+    background-position: 0 -66px;
+    background-color: #FFF2E9;
+}
+
+.xvalidator-load {
+    background: url(images/XControls/onLoad.gif) no-repeat left center;
+}
+
+/*xloader*/
+.xloader-c {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    text-align: center;
+    cursor: wait;
+    background: #ccc;
+}
+
+.xloader-b {
+    position: absolute;
+    z-index: 20;
+    z-index: 21;
+    padding: 2px;
+    border: solid 1px #6593cf;
+    background: url(images/XControls/x-loader.gif) repeat-x;
+    cursor: wait;
+    /* display: inline-block; */
+    border-radius: 3px;
+}
+
+.xloader-p {
+    height: 36px;
+    padding: 2px 12px 2px 2px;
+    border: solid 1px #a3bad9;
+    background: #eee;
+    float: left;
+    min-width: 180px;
+}
+
+.xloader-i {
+    width: 36px;
+    height: 36px;
+    float: left;
+    background: url(images/XControls/x-loader-bluecircle.gif) no-repeat;
+}
+
+.xloader-t {
+    margin-left: 6px;
+    color: #333;
+    float: left;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+/*xstatusbar*/
+.xstatusbar {
+    position: absolute;
+    border-top: solid 1px #99bbe8;
+    height: 22px;
+    background: url(images/XControls/bgx.png) repeat-x 0 -228px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 6px;
+    overflow: hidden;
+}
+
+.xstatusbar div {
+    float: left;
+    line-height: 22px;
+    height: 22px;
+}
+
+.xstatusbar .xstatusbar-separator {
+    float: left;
+    border-left: solid 1px #9ac6ff;
+    border-right: solid 1px #fff;
+    height: 14px;
+    margin: 4px 4px 0 4px;
+}
+
+.xstatusbar div.right {
+    float: right;
+}
+
+/*xtooltip*/
+.xtooltip {
+    position: absolute;
+    display: none;
+    z-index: 1000;
+    /* border: solid 1px #8eaacd; */
+    padding: 6px;
+    background: #333;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #888;
+    left: 0;
+    top: 0;
+}
+
+.xtooltip-lt,
+.xtooltip-rt,
+.xtooltip-lb,
+.xtooltip-rb {
+    background: url(images/XControls/tooltip.gif) no-repeat;
+    width: 6px;
+    height: 6px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.xtooltip-lt {
+    background-position: 0 0;
+    left: 0;
+    top: 0;
+}
+
+.xtooltip-rt {
+    background-position: -4px 0;
+    right: 0;
+    top: 0;
+}
+
+.xtooltip-lb {
+    background-position: 0 -4px;
+    left: 0;
+    bottom: 0;
+}
+
+.xtooltip-rb {
+    background-position: -4px -4px;
+    right: 0;
+    bottom: 0;
+}
+
+.xtooltip-t,
+.xtooltip-b {
+    height: 6px;
+    overflow: hidden;
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    background: url(images/XControls/tooltip.gif) repeat-x;
+}
+
+.xtooltip-cc {
+    padding: 5px;
+    position: relative;
+}
+
+.xtooltip-c {
+    /* background-color: #e9f2ff; */
+}
+
+.xtooltip-t {
+    top: 0;
+    background-position: 0 -11px;
+}
+
+.xtooltip-b {
+    bottom: 0;
+    background-position: 0 -17px;
+}
+
+.xtooltip-l,
+.xtooltip-r {
+    top: 6px;
+    bottom: 6px;
+    background: url(images/XControls/tooltip-y.gif) repeat-y;
+    position: absolute;
+    width: 6px;
+}
+
+.xtooltip-l {
+    left: 0;
+}
+
+.xtooltip-r {
+    right: 0;
+    background-position: -6px 0;
+}
+
+.xtooltip-title,
+.xtooltip-text {
+    line-height: 18px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+
+.xtooltip-title {
+    font-weight: bold;
+}
+
+.xtooltip-anchor-t,
+.xtooltip-anchor-r,
+.xtooltip-anchor-b,
+.xtooltip-anchor-l {
+    position: absolute;
+    transform-origin: 50% 0;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.xtooltip-anchor-t {
+    top: -16px;
+    border-width: 8px 8px 8px;
+    border-bottom-color: #333;
+}
+
+.xtooltip-anchor-b {
+    bottom: -16px;
+    border-width: 8px 8px 8px;
+    border-top-color: #333;
+}
+
+.xtooltip-anchor-l {
+    left: -16px;
+    border-width: 8px 8px 8px;
+    border-right-color: #333;
+}
+
+.xtooltip-anchor-r {
+    right: -16px;
+    border-width: 8px 8px 8px;
+    border-left-color: #333;
+}
+
+/*xsplitpane*/
+.xsplitpane {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.xsplitpane-vshadow,
+.xsplitpane-hshadow {
+    position: absolute;
+    background-color: #ccc;
+    display: none;
+}
+
+.xsplitpane-left,
+.xsplitpane-right,
+.xsplitpane-top,
+.xsplitpane-bottom {
+    position: relative;
+    overflow: hidden;
+}
+
+.xsplitpane-left {
+    float: left;
+    height: 100%;
+}
+
+.xsplitpane-right {
+    float: left;
+    height: 100%;
+}
+
+.xsplitpane-hbar {
+    float: left;
+    width: 5px;
+    height: 100%;
+    background: #dfe8f6 url(images/XControls/resizeicon-v.png) no-repeat center center;
+    cursor: w-resize;
+}
+
+.xsplitpane-vbar {
+    height: 5px;
+    width: 100%;
+    background: #dfe8f6 url(images/XControls/resizeicon-h.png) no-repeat center center;
+    cursor: n-resize;
+}
+
+.xsplitpane-bar-disabled {
+    background-image: none;
+    cursor: default;
+}
+
+.xsplitpane-hshadow {
+    width: 5px;
+    height: 100%;
+}
+
+.xsplitpane-vshadow {
+    height: 5px;
+    width: 100%;
+}
+
+.xsplitpane-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+/*xmsgbox*/
+.xmsgbox {
+    position: absolute;
+    z-index: 10000;
+    padding: 36px 0 35px 0;
+}
+
+.xmsgbox-h,
+.xmsgbox-f {
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.xmsgbox-h {
+    height: 36px;
+    top: 0;
+}
+
+.xmsgbox-f {
+    height: 35px;
+    bottom: 0;
+}
+
+.xmsgbox-b {
+    background: #fff;
+    max-width: 912px;
+    min-height: 30px;
+    min-width: 156px;
+    padding: 16px 16px 16px 56px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc #aaa;
+    overflow: auto;
+}
+
+.xmsgbox-hl,
+.xmsgbox-hr,
+.xmsgbox-fl,
+.xmsgbox-fr {
+    width: 5px;
+    position: absolute;
+    top: 0;
+    background: url(images/XControls/hint.png) no-repeat;
+}
+
+.xmsgbox-hl,
+.xmsgbox-hr {
+    height: 36px;
+}
+
+.xmsgbox-fl,
+.xmsgbox-fr {
+    height: 35px;
+}
+
+.xmsgbox-hl {
+    left: 0;
+    background-position: -21px -150px;
+}
+
+.xmsgbox-hr {
+    right: 0;
+    background-position: -25px -150px;
+}
+
+.xmsgbox-fl {
+    left: 0;
+    background-position: -21px -157px;
+}
+
+.xmsgbox-fr {
+    right: 0;
+    background-position: -25px -157px;
+}
+
+.xmsgbox-hc,
+.xmsgbox-fc {
+    background: #eaeaea;
+}
+
+.xmsgbox-hc {
+    border-top: solid 1px #aaa;
+    height: 29px;
+    padding-top: 6px;
+}
+
+.xmsgbox-fc {
+    border-bottom: solid 1px #aaa;
+    padding-top: 6px;
+    height: 28px;
+}
+
+.xmsgbox-f a {
+    float: right;
+    margin-right: 4px;
+}
+
+.xmsgbox-t {
+    font: bold 14px/18px arial;
+    float: left;
+    margin: 3px 0 0 10px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.xmsgbox-x {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 2px 6px 0 0;
+    background: url(images/XControls/hint.png) no-repeat 0 -150px;
+}
+
+.xmsgbox-x:hover {
+    background-position: 0 -170px;
+}
+
+.xmsgbox-icon {
+    position: absolute;
+    left: 16px;
+    width: 30px;
+    height: 30px;
+    background: url(images/XControls/hint.png) no-repeat 0 -90px;
+}
+
+.xmsgbox-icon-ok {
+    background-position: 0 0;
+}
+
+.xmsgbox-icon-alert {
+    background-position: 0 -30px;
+}
+
+.xmsgbox-icon-error {
+    background-position: 0 -60px;
+}
+
+.xmsgbox-icon-hint {
+    background-position: 0 -90px;
+}
+
+.xmsgbox-icon-wait {
+    background: url(images/ajax/load.gif) no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.xmsgbox-p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 5px;
+    max-width: 800px;
+}
+
+.xmsgbox-p p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 800px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+.xmsgbox-p strong,
+.xmsgbox-p em,
+.xmsgbox-p span {
+    font-size: 14px;
+}
+
+.xmsgbox-p strong,
+.xmsgbox-p span {
+    font-family: verdana;
+}
+
+.xmsgbox-p li {
+    list-style-type: disc;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.xmsgbox-p .xmsgbox-code {
+    color: #a31515;
+    font-family: courier new;
+    font-size: 12px;
+    border: solid 1px #ccc;
+    background: #eaeaea;
+    padding: 6px 12px;
+}
+
+.xmsgbox-function {
+    color: #00f;
+}
+
+.xmsgbox-param {
+    font-style: italic;
+}
+
+.xmsgbox-b input {
+    padding: 2px 3px;
+    border: solid 1px #B5B8C8;
+    background: #fff url(images/XControls/text-bg.gif) repeat-x;
+}
+
+.xmsgbox-b select {}
+
+.xmsgbox-nopadding {
+    padding: 0;
+}
+
+.xmsgbox-button {
+    min-width: 72px;
+    float: right;
+    margin-right: 6px;
+    height: 22px;
+    padding: 0 8px;
+    font-size: 12px;
+}
+
+#xmsgbox-cover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9999;
+}
+
+.xmsgbox-blink .xmsgbox-hl {
+    background-position: -21px -192px;
+}
+
+.xmsgbox-blink .xmsgbox-hr {
+    background-position: -25px -192px;
+}
+
+.xmsgbox-blink .xmsgbox-hc {
+    background: #fff;
+}
+
+/*xdialog*/
+.xdialog {
+    position: fixed;
+    float: left;
+    /* width: 500px; */
+    z-index: 10000;
+    border: solid 1px #9a9ea2;
+    border-radius: 3px;
+    box-shadow: 6px 6px 4px 0px #999;
+}
+
+.xdialog-head,
+.xdialog-foot {
+    background: #f6f6f6;
+}
+
+.xdialog-body {
+    position: relative;
+    padding: 30px 24px 18px 36px;
+    padding: 30px 36px;
+    background: #fff;
+    border-top: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
+    min-width: 240px;
+}
+
+.xdialog-nopadding .xdialog-body {
+    padding: 0;
+}
+
+.xdialog-desc {
+    overflow: hidden;
+}
+
+.xdialog-head {
+    height: 29px;
+    padding-top: 6px;
+    cursor: move;
+    user-select: none;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.xdialog-head-nomove {
+    cursor: default;
+}
+
+.xdialog-foot {
+    padding: 10px 4px 0 0;
+    height: 34px;
+}
+
+.xdialog-foot a {
+    float: right;
+    margin-right: 4px;
+}
+
+.xdialog-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    float: left;
+    color: #000;
+}
+
+.xdialog-logo {
+    width: 18px;
+    height: 18px;
+    background-size: 16px;
+    margin-right: 6px;
+    float: left;
+    margin-top: 3px;
+}
+
+.xdialog-btnx {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 2px 6px 0 0;
+    background: url(images/XControls/hint.png) no-repeat 0 -150px;
+    cursor: pointer;
+}
+
+.xdialog-btnx:hover {
+    background-position: 0 -170px;
+}
+
+.xdialog-icon {
+    /* width: 34px; */
+    /* height: 34px; */
+    float: left;
+    font-family: 'glyphicon';
+    -webkit-font-smoothing: antialiased;
+    font-size: 32px;
+    /* display: inline-block; */
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    margin: 3px;
+}
+
+.xdialog-icon-alert:before {
+    content: "\e209";
+    color: #FF9800;
+    font-size: 32px;
+    /* position: relative; */
+}
+
+.xdialog-icon-ok:before {
+    content: "\e084";
+    color: #0a0;
+}
+
+.xdialog-icon-error:before {
+    content: "\e083";
+    color: #F44336;
+}
+
+.xdialog-icon-ask:before {
+    content: "\e085";
+    color: #FFC107;
+}
+
+.xdialog-icon-info:before {
+    content: "\e086";
+    color: #03a9f4;
+    /* line-height: 32px; */
+    /* overflow: hidden; */
+}
+
+.xdialog-prompt {
+    font-size: 16px;
+    line-height: 38px;
+    margin-left: 40px;
+}
+
+.xdialog-prompt strong,
+.xdialog-prompt em,
+.xdialog-prompt span {
+    font-size: 14px;
+}
+
+.xdialog-prompt li {
+    list-style-type: disc;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+.xdialog-frame {
+    padding: 10px 10px 10px 42px;
+    overflow: hidden;
+}
+
+.xdialog-frame input[type=radio] {
+    float: left;
+    margin: 5px 3px 3px;
+}
+
+.xdialog-nopadding .xdialog-frame {
+    padding: 0;
+}
+
+.xdialog-frame iframe {
+    border: none;
+}
+
+.xdialog-body label {
+    float: left;
+    font-size: 14px;
+    margin-right: 7px;
+    line-height: 24px;
+}
+
+.xdialog-body .xform-radios-vertical label {
+    clear: left;
+}
+
+.xdialog-body input[type="text"],
+.xdialog-body input[type="password"] {
+    padding: 2px 3px;
+    border: solid 1px #B5B8C8;
+    background: #fff url(images/XControls/text-bg.gif) repeat-x;
+    float: left;
+}
+.xdialog-body input[type="text"][disabled="disabled"]{
+    background:#f1f1f1;
+    cursor:not-allowed;
+}
+
+.xdialog-body input[type="number"] {
+    padding: 2px 3px;
+    border: solid 1px #B5B8C8;
+    background: #fff url(images/XControls/text-bg.gif) repeat-x;
+    float: left;
+}
+
+.xdialog-body input[type="range"] {
+    /* padding: 2px 3px; */
+    border: solid 1px #B5B8C8;
+    background: #fff url(images/XControls/text-bg.gif) repeat-x;
+    float: left;
+    -webkit-appearance: none;
+}
+
+.xdialog-body #xinputTip {
+    line-height: 22px;
+    height: 22px;
+    /* float: left; */
+    font-size: 14px;
+    clear: left;
+    margin-top: 4px;
+}
+
+.xdialog-body select {}
+
+.xdialog-cover {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: #999;
+    opacity: 0.3;
+    z-index: 9999;
+}
+
+.xdialog-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #eaeaea;
+    color: #000;
+    display: none;
+    text-align: center;
+}
+
+.xdialog-nopadding {
+    padding: 0;
+}
+
+.xdialog-button {
+    width: 72px;
+    float: right;
+    margin-right: 6px;
+    height: 24px;
+    padding: 0;
+}
+
+.xdialog-button:focus {
+    background: #f1f1f1;
+    border: solid 1px #ccc;
+}
+
+.xdialog-blink .xdialog-head {
+    background: #fff;
+}
+
+/*xmenu*/
+.xmenu {
+    position: fixed;
+    min-width: 96px;
+    border: solid 1px #8a867a;
+    background: #fcfcf9;
+    padding: 2px;
+    cursor: default;
+    display: none;
+    z-index: 9999;
+    box-shadow: 3px 3px 3px #a1a1a1;
+}
+
+.xmenu-large {}
+
+.xmenu-bg {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    width: 24px;
+    border-right: solid 1px #c5c2b8;
+    background: #f1f1f1;
+}
+
+.xmenu-large .xmenu-bg {
+    width: 30px;
+}
+
+.xmenu-body {}
+
+.xmenu-inner {}
+
+.xmenu-list {
+    position: relative;
+    z-index: 2;
+}
+
+.xmenu-item {
+    height: 24px;
+    padding: 0 0 1px;
+    position: relative;
+    user-select: none;
+    list-style: none;
+}
+
+.xmenu-large .xmenu-item {
+    height: 28px;
+}
+
+.xmenu-item-inner {
+    padding: 0 2px;
+    height: 22px;
+    position: relative;
+    border: solid 1px transparent;
+}
+
+.xmenu-large .xmenu-item-inner {
+    height: 26px;
+}
+
+.xmenu-item:hover .xmenu-item-inner {
+    background-color: #e5f2fb;
+    border-radius: 3px;
+    border-color: #98b5e2;
+}
+
+.xmenu-item[disabled] {
+    cursor: not-allowed;
+}
+
+.xmenu-item[disabled]:hover .xmenu-item-inner {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 1px 3px;
+    height: 20px;
+}
+
+.xmenu-item[disabled]:hover i {
+    /* padding-right:2px; */
+    margin-top: 5px;
+    right: 1px;
+}
+
+.xmenu-item[disabled]:hover b{
+    top:4px;
+    left:5px;
+}
+
+.xmenu-large .xmenu-item[disabled]:hover .xmenu-item-inner {
+    height: 32px;
+}
+
+.xmenu-item[disabled] .xmenu-item-inner span,
+.xmenu-item[disabled] .xmenu-icon,
+.xmenu-item[disabled] .xmenu-item-inner span em,
+.xmenu-item[disabled] .xmenu-item-inner i {
+    color: #a9a9a9;
+}
+
+.xmenu-item.xmenu-last {
+    margin-bottom: 0;
+}
+
+.xmenu-item-inner:hover .xmenu-item-l {
+    background: url(images/XControls/xmenu.png) no-repeat 0 0;
+}
+
+.xmenu-item-inner:hover .xmenu-item-r {
+    background: url(images/XControls/xmenu.png) no-repeat -3px 0;
+}
+
+.xmenu-item-inner:hover .xmenu-item-c {
+    background: url(images/XControls/xmenu.png) repeat-x 0 -22px;
+}
+
+.xmenu-item b {
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+}
+
+.xmenu-large .xmenu-item b {
+    width: 22px;
+    height: 22px;
+    font-size: inherit;
+    text-align: center;
+}
+
+.xmenu-item span {
+    line-height: 20px;
+    padding: 0 20px 0 10px;
+    display: block;
+    color: #000;
+    white-space: nowrap;
+    font-size: 12px;
+    padding-left: 32px;
+    float: left;
+    width: calc(100% - 50px);
+    height: 22px;
+}
+
+.xmenu-item i {
+    font-size: 12px;
+    position: absolute;
+    margin-top: 4px;
+    right: 0;
+    top: 3px;
+}
+
+.xmenu-large .xmenu-item span {
+    line-height: 26px;
+    font-size: 13px;
+}
+
+.xmenu-item span u {
+    margin: 0 2px;
+}
+
+.xmenu-item span em {
+    float: right;
+    margin-left: 36px;
+    font-style: normal;
+    color: #7a7a7a;
+}
+
+.xmenu-large .xmenu-item span u {}
+
+.xmenu-icon {}
+
+.xmenu-separator {
+    height: 1px;
+    overflow: hidden;
+    margin-bottom: 1px;
+    float: left;
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.xmenu-separator-bg {
+    background: #c5c2b8;
+    height: 1px;
+    margin-left: 34px;
+    user-select: none;
+}
+
+.xform-invalid,
+input.xform-invalid[type="text"] {
+    border-color: #C30;
+    background-image: url(images/XControls/invalid_line.gif);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+input.xform-invalid[type="text"]:focus {
+    border-color: #C30;
+    background-image: url(images/XControls/invalid_line.gif);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    outline: solid 1px #f44336;
+}
