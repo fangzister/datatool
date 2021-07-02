@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+#body {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: solid 1px #aaa;
+  height: 48px;
+  line-height: 48px;
+}
+
+.legend {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  width: 300px;
+  padding: 0;
+}
+
+.legend li {
+    padding:0;
+    margin: 0;
+    list-style:none;
+    float:left;
+    margin-right:2em;
+    width: 120px;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font-size: 14px;
+  fill: rgb(0, 0, 0);
+}
+
+path.link {
+  fill: none;
+  stroke: #dedede;
+  stroke-width: 1px;
+}

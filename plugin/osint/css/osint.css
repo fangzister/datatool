@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+header {
+    overflow: hidden;
+    height: 30px;
+    padding: 8px;
+}
+
+.div-logo {
+}
+
+.div-logo h1 {
+}
+
+.tool {
+    border-bottom: solid 1px #b5b8c8;
+    background: #111;
+}
+
+.tool input {
+    float: left;
+    font-size: 16px;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    margin-left: 20px;
+    width: 300px;
+    padding: 4px 6px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.tool h1 {
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.tool a {
+    float: right;
+    color: #FFF;
+    margin-right: 14px;
+    /* margin-top:10px; */
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.tool a:hover {
+    color: #f63;
+}
+
+.tools {
+    float: left;
+}
+
+.tools a {
+    display: block;
+}
+
+#app{
+    position:relative;
+    bottom: 0;
+}
+
+section {
+    display: flex;
+    overflow: hidden;
+    padding: 10px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+#side{
+    padding: 10px;
+    position:absolute;
+    border: solid 1px #808080;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: #eaeaea 3px 3px 3px 3px;
+    top:0;
+    bottom:0;
+}
+
+#main{
+    position:absolute;
+    left:300px;
+}
+
+#main div {    
+    padding: 10px;
+    border: solid 1px #808080;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: #eaeaea 3px 3px 3px 3px;
+}
+
+#main a {
+    /* float:left; */
+    /* padding:3px 12px; */
+    color: #333;
+    /* display: block; */
+    text-decoration: none;
+}
+
+#main ol {
+    padding-left: 28px;
+}
+
+#main li {
+    padding: 3px 0;
+}
+
+#main a:hover {
+    text-decoration: underline;
+    color: #f63;
+}
+
+footer {
+}

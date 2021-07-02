@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>组织架构图</title>
+    <link rel="stylesheet" href="css/jquery.jOrgChart.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link type="text/css" rel="stylesheet" href="css/prettify.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.jOrgChart.css" />
+    <link type="text/css" rel="stylesheet" href="css/custom.css" />
+
+    <!-- jQuery includes -->
+    <script type="text/javascript" src="/lib/prettify/prettify.js"></script>
+    <script type="text/javascript" src="/lib/jquery/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/lib/jquery/jquery.jOrgChart.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chart" class="orgChart"></div>
+    <script>
+        window.onmessage = function(e) {
+            draw(e.data);
+            window.data = e.data;
+        };
+        window.opener.postMessage('ready', '*');
+
+        function draw(data) {
+
+            var showlist = $("<ul id='org' style='display:none'></ul>");
+            showall(data, showlist);
+            $("#chart").append(showlist);
+
+            $("#org").jOrgChart({
+                chartElement: '#chart', //指定在某个dom生成jorgchart
+                dragAndDrop: true //设置是否可拖动
+            });
+        }
+
+        function showall(menu_list, parent) {
+            $.each(menu_list, function(index, val) {
+                if (val.childrens) {
+                    var li = $("<li></li>");
+                    li.append("<a href='javascript:void(0)' onclick=getOrgId(" + val.id + ");>" + val.name + "</a>").append("<ul></ul>").appendTo(parent);
+                    //递归显示
+                    showall(val.childrens, $(li).children().eq(1));
+                } else {
+                    $("<li></li>").append("<a href='javascript:void(0)' onclick=getOrgId(" + val.id + ");>" + val.name + "</a>").appendTo(parent);
+                }
+            });
+
+        }
+    </script>
+</body>
+
+</html>

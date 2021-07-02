@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>数据处理工具</title>
+    <meta content="webkit" name="renderer" />
+    <meta content="webkit" name="force-rendering" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../lib/fzcore/css/XControls.css?version=1.1.2">
+    <link rel="stylesheet" type="text/css" href="css/dataTool.css?version=1.5.4">
+    <link rel="stylesheet" type="text/css" href="css/myicon-18.css">
+</head>
+
+<body>
+    <div id="page">
+        <aside class="tool">
+            <div class="logo-div">
+                <h1 id="logo">数据处理工具</h1>
+                <i class="logo-search oasicon oasicon-iquery"></i>
+            </div>
+            <div class="div-search-fn">
+                <i class="oasicon oasicon-iquery"></i>
+                <input class="txt-search-fn" type="text" placeholder="搜索功能（支持全拼和缩写）" />
+                <b class="oasicon oasicon-delete"></b>
+            </div>
+            <div class="tools"></div>
+            <div class="vbar" for="tools"></div>
+            <div class="history">
+                <h3>
+                    <i class="fa fa-angle-down"></i>
+                    <span>历史操作记录</span>
+                    <a href="javascript:;" class="fa fa-trash-o" title="清空历史记录"></a>
+                </h3>
+                <div id="historyList"></div>
+            </div>
+        </aside>
+        <div class="wrap">
+            <div class="col col1">
+                <header>
+                    <div class="col-title">
+                        <a index="1" title="点击修改标题（导出excel时将采用该标题作为文件名）">数据1</a>
+                    </div>
+                    <div class="col-tool">
+                        <a index="1" title="自动执行上一个命令" class="fa fa-play-circle" onclick="toggleRepeatOnBlur(this)"></a>
+                        <span>|</span>
+                        <a index="1" title="选择文件作为数据源" class="fa fa-upload" onclick="openLocalFile(showUploadedFile)" id="btnSaveText1"></a>
+                        <span>|</span>
+                        <a index="1" title="将当前数据保存为文本文件" class="fa fa-file-text-o" onclick="exportText('1')" id="btnSaveText1"></a>
+                        <a index="1" title="将当前数据导出为excel表格" class="fa fa-file-excel-o" onclick="exportTable('1')" id="btnExcel1"></a>
+                        <span>|</span>
+                        <a index="1" title="自动换行" class="fa fa-navicon" nowrap onclick="toggleWrap('1')"></a>
+                        <span>|</span>
+                        <a index="1" title="显示文本" class="fa fa-font" viewmode="text" onclick="textView('1')"></a>
+                        <a index="1" title="显示表格" class="fa fa-table" viewmode="table" onclick="tableView('1')"></a>
+                    </div>
+                </header>
+                <textarea id="txtArray1" index="1" rows="30" cols="20" oninput="setSourceCount(this)"></textarea>
+                <table id="tblArray1" index="1" class="datatable">
+                    <tbody></tbody>
+                </table>
+                <span id="emArray1" class="statusbar"></span>
+            </div>
+            <div class="bar bar1" for="col1"></div>
+            <div class="col col2">
+                <header>
+                    <div class="col-title">
+                        <a index="2" title="点击修改标题（导出excel时将采用该标题作为文件名）">数据2</a>
+                    </div>
+                    <div class="col-tool">
+                        <a index="2" title="自动执行上一个命令" class="fa fa-play-circle" onclick="toggleRepeatOnBlur(this)"></a>
+                        <span>|</span>
+                        <a index="2" title="将当前数据保存为文本文件" class="fa fa-file-text-o" onclick="exportText('2')" id="btnSaveText2"></a>
+                        <a index="2" title="将当前数据导出为excel表格" class="fa fa-file-excel-o" onclick="exportTable('2')" id="btnExcel2"></a>
+                        <span>|</span>
+                        <a index="2" title="自动换行" class="fa fa-navicon" nowrap onclick="toggleWrap('2')"></a>
+                        <span>|</span>
+                        <a index="2" title="显示文本" class="fa fa-font" viewmode="text" onclick="textView('2')"></a>
+                        <a index="2" title="显示表格" class="fa fa-table" viewmode="table" onclick="tableView('2')"></a>
+                    </div>
+                </header>
+                <textarea id="txtArray2" index="2" rows="30" cols="20" oninput="setSourceCount(this)"></textarea>
+                <table id="tblArray2" index="2" class="datatable">
+                    <tbody></tbody>
+                </table>
+                <span id="emArray2" class="statusbar"></span>
+            </div>
+            <div class="bar bar2" for="col2"></div>
+            <div class="col col3">
+                <header>
+                    <div class="col-title">
+                        <a index="result" title="点击修改标题（导出excel时将采用该标题作为文件名）">结果</a>
+                    </div>
+                    <div class="col-tool">
+                        <a index="result" title="自动执行上一个命令" class="fa fa-play-circle" onclick="toggleRepeatOnBlur(this)"></a>
+                        <span>|</span>
+                        <a index="result" title="将当前数据保存为文本文件" class="fa fa-file-text-o" onclick="exportText('result')" id="btnSaveTextResult"></a>
+                        <a index="result" title="将当前数据导出为excel表格" class="fa fa-file-excel-o" onclick="exportTable('result')" id="btnExcelresult"></a>
+                        <span>|</span>
+                        <a index="result" title="自动换行" class="fa fa-navicon" nowrap onclick="toggleWrap('result')"></a>
+                        <span>|</span>
+                        <a index="result" title="显示文本" class="fa fa-font" viewmode="text" onclick="textView('result')"></a>
+                        <a index="result" title="显示表格" class="fa fa-table" viewmode="table" onclick="tableView('result')"></a>
+                    </div>
+                </header>
+                <textarea id="txtResult" index="result" rows="30" cols="20"></textarea>
+                <table id="tblResult" index="result" class="datatable">
+                    <tbody></tbody>
+                </table>
+                <span id="emResult" class="statusbar"></span>
+            </div>
+            <div id="actionHistoryWrap"></div>
+        </div>
+        <footer class="footer">
+            <div class="layout-list">
+                <span>界面布局</span>
+                <a href="javascript:;" layout="default" /><b></b></a>
+                <a href="javascript:;" layout="horizontal2" /><b></b></a>
+                <a href="javascript:;" layout="vertical2" /><b></b></a>
+                <a href="javascript:;" layout="left2right1" /><b></b></a>
+            </div>
+            <div class="footer-copyright">DataTool&nbsp;&copy; 2020-2021 <i class="fa fa-weixin"></i>fangzister</div>
+            <div class="footer-links"></div>
+        </footer>
+        <div id="divQRcode"></div>
+        <button id="btnClipboard"></button>
+        <img id="imgMyQR" src="images/fangzister-qr.jpg" />
+    </div>
+    <div class="split-shadow"></div>
+    <div class="split-cover"></div>
+    <script type="text/javascript" src="./lib/fzcore/_core.js?version=1.8.9"></script>
+    <script type="text/javascript" src="./lib/fzcore/_fzUI.js?version=1.1.3"></script>
+    <script type="text/javascript" src="./lib/jquery/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery/jquery-qrcode-0.17.0.js"></script>
+    <script type="text/javascript" src="./lib/clipboard/clipboard.min.js"></script>
+    <script type="text/javascript" src="./lib/bases/bases.js"></script>
+    <script type="text/javascript" src="./lib/base64/base64.js"></script>
+    <script type="text/javascript" src="./lib/pinyinjs-master/dict/pinyin_dict_withtone.js"></script>
+    <script type="text/javascript" src="./lib/pinyinjs-master/pinyinUtil.js"></script>
+    <script type="text/javascript" src="./lib/FileSaver.js-master/FileSaver.min.js"></script>
+    <script type="text/javascript" src="./lib/crypto-js/CryptoJs.js"></script>
+    <script type="text/javascript" src="./lib/ctfencode/xxencode.js"></script>
+    <script type="text/javascript" src="./lib/ctfencode/uuencode.js"></script>
+    <script type="text/javascript" src="./lib/Markdown/Markdown.Converter.js"></script>
+    <script type="text/javascript" src="./lib/Markdown/showdown.min.js"></script>
+    <script type="text/javascript" src="./js/dataTool_fn.js?version=1.5.4"></script>
+    <script type="text/javascript" src="./js/dataTool_ui.js?version=1.5.4"></script>
+    <script type="text/javascript" src="./js/dataTool_menu.js?version=1.5.4"></script>
+</body>
+
+</html>

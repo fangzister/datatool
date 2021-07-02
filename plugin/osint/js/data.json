@@ -1,0 +1,886 @@
+{
+    "人物搜寻": [{
+        "url": "https://www.spokeo.com",
+        "description": "【付费】搜美国人"
+    }, {
+        "url": "https://thatsthem.com"
+    }, {
+        "url": "https://www.beenverified.com"
+    }, {
+        "url": "https://www.fastpeoplesearch.com"
+    }, {
+        "url": "https://www.truepeoplesearch.com"
+    }, {
+        "url": "https://www.familytreenow.com"
+    }, {
+        "url": "https://people.yandex.ru"
+    }],
+    "美国隐私保护网站": [{
+        "title": "IdentityForce",
+        "description": "IdentityForce是为个人，企业和政府机构提供主动身份，隐私和信用保护的领先提供商。",
+        "url": "https://www.identityforce.com/blog"
+    }, {
+        "title": "父母需要知道的",
+        "description": "为了帮助孩子们最大程度地利用互联网，并最大程度地降低风险，我们提供了有关真正确保孩子们安全的最新研究，技巧和工具。您应该使用哪些隐私设置？什么是家长控制的来龙去脉？获得有关一切的技巧，从基本的知识（如智能用户名）到重要的知识（如适当的共享）。另外，告诉公司停止从孩子的数据中获利， 并向您的家庭使用的应用和网站提交“禁止出售”请求。",
+        "url": "https://www.commonsensemedia.org/privacy-and-internet-safety"
+    }, {
+        "title": "联邦贸易委员会",
+        "description": "",
+        "url": "https://www.ftc.gov/"
+    }, {
+        "title": "获取安全在线",
+        "description": "getsafeonline是英国有关在线安全的公正，事实和易于理解的主要信息来源。其网站是一个独特的资源，提供有关如何保护自己，您的计算机和移动设备以及您的企业免受欺诈，身份盗用，病毒和其他在线遇到的其他问题的实用建议。它还包含许多其他相关主题的指南，包括执行备份以及如何避免计算机，智能手机或平板电脑被盗或丢失。该网站上涵盖了所有可以想到的主题，包括安全的在线购物，游戏和约会……因此，您现在可以真正放心使用在线上的一切。",
+        "url": "https://www.getsafeonline.org/"
+    }, {
+        "title": "德克萨斯大学奥斯汀分校身份中心",
+        "description": "https://identity.utexas.edu/",
+        "url": "德克萨斯大学奥斯汀分校成立了身份中心，作为身份管理，隐私和安全性的卓越中心。该中心的研究和教育计划正在提供新的创新成果，以预测和缓解当前和将来的身份威胁，同时为现在和将来提供领导力，愿景和解决方案。"
+    }, {
+        "title": "保持在线安全",
+        "description": "了解这些提示和资源，如何保护自己，家人和设备。",
+        "url": "https://staysafeonline.org/"
+    }, {
+        "title": "身份盗窃资源中心",
+        "description": "ITRC是一个非营利组织，旨在授权和指导消费者，受害者，企业和政府，以最大程度地降低风险并减轻身份泄露和犯罪的影响。",
+        "url": "https://www.idtheftcenter.org/"
+    }, {
+        "title": "国税局",
+        "description": "",
+        "url": "https://www.irs.gov/"
+    }, {
+        "title": "身份盗用",
+        "description": "如何保护自己免受身份盗用并在发生盗窃时做出回应。",
+        "url": "https://www.usa.gov/identity-theft"
+    }, {
+        "title": "TransUnion",
+        "description": "TransUnion是一家全球信息和洞察力公司，通过确保每个消费者在市场中可靠，安全地代表，使企业与消费者之间建立信任。增强信任意味着企业和消费者可以充满信心地进行交易并取得成就。",
+        "url": "https://www.transunion.com/fraud-victim-resource/child-identity-theft"
+    }],
+    "美国违法犯罪记录及判决查询网站": [{
+        "title": "法院案例搜索",
+        "description": "",
+        "url": "https://pacer.uscourts.gov/"
+    }, {
+        "title": "联邦案件查询",
+        "description": "",
+        "url": "https://www.judyrecords.com/"
+    }, {
+        "title": "高级RECAP搜索",
+        "description": "",
+        "url": "https://www.courtlistener.com/recap/"
+    }, {
+        "title": "集成数据库（IDB）",
+        "description": "包含有关民事案件和刑事被告的文件数据以及在地区法院的解雇情况，以及破产法院和上诉法院的案件信息。FJC会定期接收案件相关数据的更新，这些数据通常由法院报告给AOUSC。然后，FJC根据美国司法会议关于获取这些数据的政策对数据。",
+        "url": "https://www.fjc.gov/research/idb"
+    }, {
+        "title": "各州法院记录",
+        "description": "",
+        "url": "https://www.ncsc.org/topics/access-and-fairness/privacy-public-access-to-court-records/state-links2"
+    }, {
+        "title": "黑皮书在线公共记录搜索",
+        "description": "",
+        "url": "https://www.blackbookonline.info/"
+    }, {
+        "title": "犯人定位器",
+        "description": "查找1982年至今的联邦囚犯。",
+        "url": "https://www.bop.gov/inmateloc/"
+    }, {
+        "title": "家庭看门狗",
+        "description": "性犯罪记录查询",
+        "url": "https://www.familywatchdog.us/"
+    }, {
+        "title": "免费公共记录刑事犯罪搜索",
+        "description": "",
+        "url": "https://publicrecords.onlinesearches.com/"
+    }, {
+        "title": "美国犯罪记录搜索",
+        "description": "",
+        "url": "https://www.ussearch.com/criminal-records/"
+    }, {
+        "title": "courtlistener",
+        "description": "免费提供基本法律资料，开发法律研究工具并支持有关法律语料库的学术研究。",
+        "url": "https://www.courtlistener.com/"
+    }, {
+        "title": "美国人员背景调查",
+        "description": "",
+        "url": "https://www.corragroup.com/ALaCarteProducts.html"
+    }, {
+        "title": "美国刑事案件报道",
+        "description": "",
+        "url": "https://www.uscourts.gov/statistics-reports/reporting-criminal-cases-journalists-guide"
+    }],
+    "加拿大违法犯罪记录及判决查询网站": [{
+        "title": "加拿大政府公开数据",
+        "url": "https://govdataca.com/"
+    }, {
+        "title": "加拿大背景调查",
+        "url": "https://www.mybackcheck.com/Public/Login.aspx"
+    }, {
+        "title": "加拿大法院公开记录查询",
+        "url": "https://publicrecords.searchsystems.net/Canada_Free_Public_Records/Courts___Tribunals/"
+    }, {
+        "title": "加拿大最高法院案例搜索",
+        "url": "https://www.scc-csc.ca/case-dossier/info/search-recherche-eng.aspx"
+    }, {
+        "title": "加拿大法院档案搜索",
+        "url": "https://www.fct-cf.gc.ca/en/court-files-and-decisions/court-files"
+    }, {
+        "title": "加拿大法庭记录",
+        "url": "https://www.lib.sfu.ca/help/research-assistance/subject/criminology/legal-information/courtrecords"
+    }, {
+        "title": "加拿大公共记录搜索",
+        "url": "https://www.publicrecordcenter.com/canada_public_records.htm"
+    }],
+    "telegram": [{
+        "url": "http://tlgrm.eu/",
+        "title": "电报官网"
+    }, {
+        "url": "https://web.telegram.org/",
+        "title": "电报网页版"
+    }, {
+        "url": "http://tele.me/hashtags",
+        "title": "电报全球趋势 Tele.me: Hashtags"
+    }, {
+        "url": "https://tfind.me",
+        "title": "电报搜索引擎 Tfind.me"
+    }, {
+        "url": "https://tgram.io",
+        "title": "电报组列表 Tgram.io"
+    }, {
+        "url": "https://tgstat.com",
+        "title": "电报频道分析 Tgstat.com"
+    }, {
+        "url": "https://tgstat.ru",
+        "title": "俄罗斯电报频道 Tgstat RU"
+    }, {
+        "title": "中文电报搜索",
+        "url": "http://www.sssoou.com"
+    }, {
+        "title": "ChatToday 查找新朋友聊天（支持Kik，Snapchat，Skype，Telegram，Discord等）",
+        "url": "https://chattoday.com"
+    }, {
+        "title": "情报搜索工具 （可搜索facebook、twitter、linkedin、telegram、youtube等）IntelligenceX",
+        "url": "https://intelx.io/tools?tab=telegram"
+    }, {
+        "title": "电报谷歌搜索Telegago",
+        "url": "https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page="
+    }, {
+        "title": "搜索电报群、频道Telegram Channels",
+        "url": "https://telegramchannels.me"
+    }, {
+        "title": "搜索电报频道 Tlgrm",
+        "url": "https://tlgrm.eu/channel"
+    }, {
+        "title": "搜索电报频道、机器人、群Telegram Channels Search",
+        "url": "https://xtea.io/ts.html#gsc.tab="
+    }, {
+        "title": "发现流行的电报频道，群，机器人和游戏 Telegram Directory",
+        "url": "https://tdirectory.me"
+    }, {
+        "title": "电报群搜索 Telegram Group",
+        "url": "https://www.telegram-group.com"
+    }, {
+        "title": "群搜索 IxGram",
+        "url": "https://www.telegramgroup1.com"
+    }, {
+        "title": "搜索 Lyzem.com",
+        "url": "https://lyzem.com"
+    }, {
+        "title": "电报统计及工具 Telegram.im",
+        "url": "https://telegram.im/tools/index.php"
+    }, {
+        "title": "电报频道网站 Telegram List",
+        "url": "https://telegramlist.com"
+    }, {
+        "title": "保存聊天记录插件 Save Telegram Chat History",
+        "url": "https://github.com/pigpagnet/save-telegram-chat-history"
+    }, {
+        "title": "提取用户信息插件 fabledowl",
+        "url": "https://gist.github.com/fabledowl"
+    }, {
+        "title": "电报大规模监视机器人插件 informer",
+        "url": "https://github.com/paulpierre/informer"
+    }, {
+        "title": "电报历史转储插件 telegram-history-dump",
+        "url": "https://github.com/tvdstaaij/telegram-history-dump"
+    }, {
+        "title": "电报OSINT方案库插件 Telegram-osint-lib",
+        "url": "https://github.com/Postuf/telegram-osint-lib"
+    }, {
+        "title": "获取有关组成员的所有信息 Telegram Scraper",
+        "url": "https://github.com/th3unkn0n/TeleGram-Scraper"
+    }, {
+        "title": "聊天机器 （包括messenger、alesa skills、skype、telegram、slack、kik等）",
+        "url": "https://chatbottle.co/bots/telegram"
+    }, {
+        "title": "机器人 There Is A Bot For That",
+        "url": "https://thereisabotforthat.com"
+    }, {
+        "title": "如何找到机器人 HowToFindBot",
+        "url": "https://t.me/howtofind_bot"
+    }, {
+        "title": "电报公开信息搜索",
+        "url": "https://search.buzz.im"
+    }],
+    "电邮工具": [{
+        "title": "hunter.io",
+        "url": "https://hunter.io/",
+        "description": "对域名进行快速扫描以查找电子邮件地址，并揭示其常见模式。"
+    }, {
+        "title": "电子邮件置换器",
+        "url": "http://metricsparrow.com/toolkit/email-permutator/",
+        "description": "最多生成三个域的置换，目标可能在该域具有电子邮件地址。支持多个变量输入以生成自定义结果。"
+    }, {
+        "title": "校对",
+        "url": "https://proofy.io/",
+        "description": "允许批量电子邮件验证，当你使用排列工具生成电子邮件列表并希望一次检查所有电子邮件时，此功能非常有用。"
+    }],
+    "推特工具": [{
+        "title": "第一条推文",
+        "url": "https://ctrlq.org/first/"
+    }, {
+        "title": "查找删除的推文",
+        "url": "https://www.politwoops.com/"
+    }, {
+        "title": "账号分析",
+        "url": "http://accountanalysis.app/"
+    }, {
+        "title": "账号基本信息查询",
+        "url": "https://tinfoleak.com/"
+    }, {
+        "title": "账户名称与账户ID转换",
+        "url": "https://tweeterid.com/"
+    }, {
+        "title": "第一个关注者",
+        "url": "https://socialrank.com/firstfollower"
+    }, {
+        "title": "可视化社交网络分析",
+        "url": "https://www.omnisci.com/demos/tweetmap"
+    }],
+    "一、一般搜索工具及其地址": [{
+        "title": "1、Aol",
+        "url": "http://search.aol.com"
+    }, {
+        "title": "2、Ask",
+        "url": "http://www.ask.com"
+    }, {
+        "title": "3、Baidu",
+        "url": "http://www.baidu.com"
+    }, {
+        "title": "4、Bing",
+        "url": "http://www.bing.com"
+    }, {
+        "title": "5、Deeperweb",
+        "url": "http://deeperweb.com"
+    }, {
+        "title": "6、Dothop",
+        "url": "http://dothop.com"
+    }, {
+        "title": "7、DuckDuckGo",
+        "url": "https://duckduckgo.com"
+    }, {
+        "title": "8、Ecosia",
+        "url": "https://www.ecosia.org"
+    }, {
+        "title": "9、entireweb",
+        "url": "https://www.entireweb.com"
+    }, {
+        "title": "10、Factbites",
+        "url": "http://www.factbites.com"
+    }, {
+        "title": "11、Gigablast",
+        "url": "http://gigablast.com"
+    }, {
+        "title": "12、Goodsearch",
+        "url": "http://www.goodsearch.com"
+    }, {
+        "title": "13、Google Advanced Search",
+        "url": "https://www.google.com/advanced_search"
+    }, {
+        "title": "14、Google Search",
+        "url": "http://www.google.com"
+    }, {
+        "title": "15、Jive Search",
+        "url": "https://www.jivesearch.com"
+    }, {
+        "title": "16、Lycos",
+        "url": "http://www.lycos.com"
+    }, {
+        "title": "17、MyWebSearch",
+        "url": "http://home.mywebsearch.com"
+    }, {
+        "title": "17、SurfCanyon",
+        "url": "http://www.surfcanyon.com"
+    }, {
+        "title": "18、Teoma",
+        "url": "http://www.teoma.com"
+    }, {
+        "title": "19、Wolfram Alpha",
+        "url": "http://www.wolframalpha.com"
+    }, {
+        "title": "20、Yahoo! Search",
+        "url": "http://www.yahoo.com"
+    }, {
+        "title": "21、Yandex",
+        "url": "https://www.yandex.com"
+    }],
+    "二、元搜索": [{
+        "title": "1、All-in-One",
+        "url": "http://all-io.net"
+    }, {
+        "title": "2、AllTheInternet",
+        "url": "http://www.alltheinternet.com"
+    }, {
+        "title": "3、Bing vs. Google",
+        "url": "http://bvsg.org"
+    }, {
+        "title": "4、Dogpile",
+        "url": "http://www.dogpile.com"
+    }, {
+        "title": "5、eLocalFinder",
+        "url": "http://www.elocalfinder.com/HSearch.aspx"
+    }, {
+        "title": "6、Etools",
+        "url": "http://www.etools.ch"
+    }, {
+        "title": "7、Excite",
+        "url": "http://msxml.excite.com"
+    }, {
+        "title": "8、FaganFinder",
+        "url": "http://www.faganfinder.com/engines"
+    }, {
+        "title": "9、Findsmarter",
+        "url": "http://www.findsmarter.com"
+    }, {
+        "title": "10、Info.com",
+        "url": "http://www.info.com"
+    }, {
+        "title": "11、Infospace",
+        "url": "http://www.infospace.com"
+    }, {
+        "title": "12、Instya",
+        "url": "http://www.instya.com"
+    }, {
+        "title": "13、iZito",
+        "url": "http://www.izito.com"
+    }, {
+        "title": "14、Nextaris",
+        "url": "http://www.nextaris.com"
+    }, {
+        "title": "15、Metabear",
+        "url": "http://www.metabear.com"
+    }, {
+        "title": "16、Monster Crawler",
+        "url": "http://www.monstercrawler.com"
+    }, {
+        "title": "17、Myallsearch",
+        "url": "http://www.myallsearch.com"
+    }, {
+        "title": "18、opentext",
+        "url": "http://fqs.opentext.com/web.htm"
+    }, {
+        "title": "19、Search",
+        "url": "https://www.search.com"
+    }, {
+        "title": "20、Sputtr",
+        "url": "http://www.sputtr.com"
+    }, {
+        "title": "21、SonicRun",
+        "url": "http://www.sonicrun.com"
+    }, {
+        "title": "22、Trovando",
+        "url": "http://www.trovando.it"
+    }, {
+        "title": "23、WebCrawler",
+        "url": "http://www.webcrawler.com"
+    }, {
+        "title": "24、Zapmeta",
+        "url": "http://www.zapmeta.com"
+    }],
+    "三、可视化搜索和集群搜索引擎": [{
+        "title": "1、Answer The Public",
+        "url": "https://answerthepublic.com"
+    }, {
+        "title": "2、Carrot2",
+        "url": "http://search.carrot2.org"
+    }, {
+        "title": "3、Cluuz",
+        "url": "http://www.cluuz.com"
+    }, {
+        "title": "4、Exalead",
+        "url": "http://www.exalead.com"
+    }, {
+        "title": "5、iSEEK",
+        "url": "http://iseek.com"
+    }, {
+        "title": "6、Yippy",
+        "url": "http://yippy.com"
+    }],
+    "四、各国搜索引擎": [{
+        "title": "1、1ste Keuze (荷兰)",
+        "url": "http://www.eerstekeuze.nl"
+    }, {
+        "title": "2、360 so (中国)",
+        "url": "https://www.so.com"
+    }, {
+        "title": "3、AEIOU (葡萄牙)",
+        "url": "http://www.aeiou.pt"
+    }, {
+        "title": "4、Alleba (菲律宾)",
+        "url": "http://www.alleba.com"
+    }, {
+        "title": "5、AnoKato (希腊)",
+        "url": "http://www.ano-kato.com"
+    }, {
+        "title": "6、AONDE (巴西)",
+        "url": "http://www.aonde.com"
+    }, {
+        "title": "7、Apali! (西班牙)",
+        "url": "http://www.apali.com"
+    }, {
+        "title": "8、Arabo (阿尔及利亚)",
+        "url": "http://www.arabo.com"
+    }, {
+        "title": "9、Arama (土耳其)",
+        "url": "http://www.arama.com"
+    }, {
+        "title": "10、Baidu (中国)",
+        "url": "http://www.baidu.com"
+    }, {
+        "title": "11、Baidu In English",
+        "url": "http://baiduinenglish.com"
+    }, {
+        "title": "12、Daum (韩国)",
+        "url": "http://www.daum.net"
+    }, {
+        "title": "13、Deusu (德国)",
+        "url": "https://deusu.de"
+    }, {
+        "title": "14、Dive3000 (意大利)",
+        "url": "http://www.dive3000.com/search"
+    }, {
+        "title": "15、Editus.lu (卢森堡)",
+        "url": "https://www.editus.lu"
+    }, {
+        "title": "16、Eniro (瑞典)",
+        "url": "http://www.eniro.se"
+    }, {
+        "title": "17、FineLib (尼日利亚)",
+        "url": "http://www.finelib.com"
+    }, {
+        "title": "18、Finna (芬兰)",
+        "url": "https://www.finna.fi"
+    }, {
+        "title": "19、Fireball (德国)",
+        "url": "https://fireball.de"
+    }, {
+        "title": "20、Freenet.de (德国)",
+        "url": "http://suche.freenet.de"
+    }, {
+        "title": "21、Goo (日本)",
+        "url": "http://www.goo.ne.jp"
+    }, {
+        "title": "22、Gooru (波兰)",
+        "url": "http://www.gooru.pl"
+    }, {
+        "title": "23、Hao123 (中国)",
+        "url": "https://www.hao123.com"
+    }, {
+        "title": "24、Iranmehr (伊朗)",
+        "url": "http://www.iranmehr.com"
+    }, {
+        "title": "25、Jamasp (伊朗)",
+        "url": "http://www.jamasp.ir"
+    }, {
+        "title": "26、KacMac (叙利亚)",
+        "url": "http://www.kacmac.com"
+    }, {
+        "title": "27、Kvasir (挪威)",
+        "url": "http://www.kvasir.no"
+    }, {
+        "title": "28、Leit (冰岛)",
+        "url": "http://leit.is"
+    }, {
+        "title": "29、Libero (意大利)",
+        "url": "http://arianna.libero.it"
+    }, {
+        "title": "30、Lycos.fr (法国)",
+        "url": "http://www.lycos.fr"
+    }, {
+        "title": "31、Makupalat (芬兰)",
+        "url": "https://www.finna.fi"
+    }, {
+        "title": "32、Maven Search (以色列)",
+        "url": "http://www.mavensearch.com"
+    }, {
+        "title": "33、MetaGer (德国)",
+        "url": "https://metager.de"
+    }, {
+        "title": "34、Mojeek (英国)",
+        "url": "https://www.mojeek.co.uk"
+    }, {
+        "title": "35、Mozbot (法国)",
+        "url": "https://www.mozbot.com"
+    }, {
+        "title": "36、Najdsi (斯洛文尼亚)",
+        "url": "http://www.najdi.si"
+    }, {
+        "title": "37、Nate (韩国)",
+        "url": "http://www.nate.com"
+    }, {
+        "title": "38、Naver (韩国)",
+        "url": "http://www.naver.com"
+    }, {
+        "title": "39、Onet.pl (波兰)",
+        "url": "http://www.onet.pl"
+    }, {
+        "title": "40、Orange (法国)",
+        "url": "http://www.orange.fr"
+    }, {
+        "title": "41、Parseek (伊朗)",
+        "url": "http://www.parseek.com"
+    }, {
+        "title": "42、Pipilika (孟加拉国)",
+        "url": "https://www.pipilika.com"
+    }, {
+        "title": "43、Raftaar (印度)",
+        "url": "https://www.raftaar.in"
+    }, {
+        "title": "44、Raziskovalec (斯洛文尼亚)",
+        "url": "http://www.raziskovalec.com"
+    }, {
+        "title": "45、Rismoon (伊朗)",
+        "url": "http://www.rismoon.com"
+    }, {
+        "title": "46、Rootle (俄罗斯)",
+        "url": "http://www.rootle.ru"
+    }, {
+        "title": "47、SAPO (葡萄牙)",
+        "url": "http://www.sapo.pt"
+    }, {
+        "title": "48、Search.bg (保加利亚)",
+        "url": "http://www.search.bg"
+    }, {
+        "title": "49、Search.ch (瑞士)",
+        "url": "http://www.search.ch"
+    }, {
+        "title": "50、Search Engine Colossus",
+        "url": "http://searchenginecolossus.com"
+    }, {
+        "title": "51、Search Lotto (英国)",
+        "url": "https://www.searchlotto.co.uk"
+    }, {
+        "title": "52、Seznam (捷克)",
+        "url": "https://www.seznam.cz"
+    }, {
+        "title": "53、Shamrock (爱尔兰)",
+        "url": "http://www.ireland-information.com/engine"
+    }, {
+        "title": "54、Sina (中国)",
+        "url": "Https://www.sina.com.cn"
+    }, {
+        "title": "55、Sogou (中国)",
+        "url": "https://www.sogou.com"
+    }, {
+        "title": "56、Surf (斯洛伐克)",
+        "url": "http://www.surf.sk"
+    }, {
+        "title": "57、Walla (以色列)",
+        "url": "http://www.walla.co.il"
+    }, {
+        "title": "58、Yam (台湾)",
+        "url": "http://search.yam.com"
+    }, {
+        "title": "59、Yandex (俄罗斯)",
+        "url": "http://www.yandex.com"
+    }, {
+        "title": "60、Yoodle (瑞士)",
+        "url": "http://www.yoodle.ch"
+    }, {
+        "title": "61、Yooz (伊朗)",
+        "url": "https://yooz.ir"
+    }, {
+        "title": "62、Vinden (荷兰)",
+        "url": "https://www.vinden.nl"
+    }, {
+        "title": "63、qq.com (中国)",
+        "url": "http://www.qq.com"
+    }, {
+        "title": "64、Zoznam (斯洛伐克)",
+        "url": "https://www.zoznam.sk"
+    }],
+    "五、代码搜索": [{
+        "title": "1、NerdyData",
+        "url": "https://search.nerdydata.com"
+    }, {
+        "title": "2、Google Code Search",
+        "url": "https://code.google.com"
+    }, {
+        "title": "3、PublicWWW",
+        "url": "https://publicwww.com"
+    }, {
+        "title": "4、Programmable Web",
+        "url": "https://www.programmableweb.com"
+    }, {
+        "title": "5、SearchCode",
+        "url": "https://searchcode.com"
+    }],
+    "六、FTP 搜索": [{
+        "title": "1、Archie",
+        "url": "http://archie.icm.edu.pl/archie_eng.html"
+    }, {
+        "title": "2、Filemare",
+        "url": "https://filemare.com"
+    }, {
+        "title": "3、Global File Search",
+        "url": "http://globalfilesearch.com"
+    }, {
+        "title": "4、Global File Search",
+        "url": "http://globalfilesearch.net"
+    }, {
+        "title": "5、MMNT",
+        "url": "http://www.mmnt.ru"
+    }, {
+        "title": "6、NAPALM FTP Indexer",
+        "url": "http://www.searchftps.ne"
+    }],
+    "七、类似网站搜索": [{
+        "title": "1、Find Similar Sites",
+        "url": "http://www.findsimilarsites.com"
+    }, {
+        "title": "2、Google Similar Pages",
+        "url": "https://chrome.google.com/webstore/detail/googlesimilarpages/pjnfggphgdjblhfjaphkjhfpiiekbbej"
+    }, {
+        "title": "3、SimilarPages",
+        "url": "http://www.similarpages.com"
+    }, {
+        "title": "4、SimilarSites",
+        "url": "http://www.similarsites.com"
+    }, {
+        "title": "5、SimilarSiteSearch",
+        "url": "http://www.similarsitesearch.com"
+    }, {
+        "title": "6、SitesLike",
+        "url": "http://www.siteslike.com"
+    }],
+    "八、物联网搜索引擎": [{
+        "title": "1、Internet of Things Scanner",
+        "url": "https://iotscanner.bullguard.com"
+    }, {
+        "title": "2、Shodan",
+        "url": "https://www.shodan.io"
+    }, {
+        "title": "3、Thingful",
+        "url": "https://www.thingful.net"
+    }, {
+        "title": "4、ZoomEye",
+        "url": "https://www.zoomeye.org"
+    }],
+    "九、儿童友好搜索引擎": [{
+        "title": "1、Fact Monster",
+        "url": "https://www.factmonster.com"
+    }, {
+        "title": "2、KidsClick",
+        "url": "http://www.kidsclick.org"
+    }, {
+        "title": "3、KidRex",
+        "url": "http://www.kidrex.org"
+    }, {
+        "title": "4、Topmarks",
+        "url": "https://www.topmarks.co.uk"
+    }],
+    "十、其他专业搜索引擎": [{
+        "title": "1、Athlinks",
+        "url": "https://www.athlinks.com"
+    }, {
+        "title": "2、Biznar",
+        "url": "http://biznar.com"
+    }, {
+        "title": "3、Blade Search",
+        "url": "https://bladesearch.com"
+    }, {
+        "title": "4、CiteSeerX",
+        "url": "http://citeseer.ist.psu.edu"
+    }, {
+        "title": "5、crunchbase",
+        "url": "https://www.crunchbase.com"
+    }, {
+        "title": "5、Datasheet Library",
+        "url": "http://www.datasheetlib.com"
+    }, {
+        "title": "6、Digle",
+        "url": "https://www.digle.com"
+    }, {
+        "title": "7、Economic Search Engine",
+        "url": "http://ese.rfe.org"
+    }, {
+        "title": "8、FluidDATA",
+        "url": "https://fluid.bitplatter.com"
+    }, {
+        "title": "9、Google Custom Search",
+        "url": "http://www.google.com/cse"
+    }, {
+        "title": "10、Harmari",
+        "url": "https://www.harmari.com/search/unified"
+    }, {
+        "title": "11、Instant Logo Search",
+        "url": "http://instantlogosearch.com"
+    }, {
+        "title": "12、Internet Archive",
+        "url": "https://archive.org/"
+    }, {
+        "title": "13、Lableb",
+        "url": "https://lableb.com"
+    }, {
+        "title": "14、moocha",
+        "url": "https://www.moocha.io"
+    }, {
+        "title": "15、Open Hub",
+        "url": "https://www.openhub.net"
+    }, {
+        "title": "16、Qwikia",
+        "url": "http://www.qwika.com"
+    }, {
+        "title": "17、Rebbutter.me",
+        "url": "http://rebutter.me"
+    }, {
+        "title": "18、ShareDir",
+        "url": "https://sharedir.com"
+    }, {
+        "title": "19、Sweet Search",
+        "url": "https://www.sweetsearch.com"
+    }, {
+        "title": "20、SymbolHound",
+        "url": "http://symbolhound.com"
+    }, {
+        "title": "21、Think Tank Search",
+        "url": "https://guides.library.harvard.edu/hks/think_tank_search"
+    }, {
+        "title": "22、WikiVisually",
+        "url": "https://wikivisually.com"
+    }, {
+        "title": "23、WorldWideScience.org",
+        "url": "http://worldwidescience.org"
+    }, {
+        "title": "24、Yamli",
+        "url": "http://www.yamli.com"
+    }, {
+        "title": "25、Yobi 3D",
+        "url": "https://www.yobi3d.com"
+    }, {
+        "title": "26、Zanran",
+        "url": "http://zanran.com"
+    }],
+    "十一、其他搜索引擎和工具": [{
+        "title": "1、2lingual Search",
+        "url": "http://www.2lingual.com"
+    }, {
+        "title": "2、Advangle",
+        "url": "http://advangle.com"
+    }, {
+        "title": "3、Answer the Public",
+        "url": "https://answerthepublic.com"
+    }, {
+        "title": "4、AOL Search Database",
+        "url": "https://search-id.com"
+    }, {
+        "title": "5、Banana SLUG",
+        "url": "http://www.bananaslug.com"
+    }, {
+        "title": "6、BOOL",
+        "url": "https://chrome.google.com/webstore/detail/bool/cfpmoigmhcehoegokjllchipdiindpkc"
+    }, {
+        "title": "7、Context Menu Search",
+        "url": "https://chrome.google.com/webstore/detail/contextmenusearch/ocpcmghnefmdhljkoiapafejjohldoga"
+    }, {
+        "title": "8、Custom Search",
+        "url": "https://inteltechniques.com/OSINT/user.html"
+    }, {
+        "title": "9、Impersonal.me",
+        "url": "http://www.impersonal.me"
+    }, {
+        "title": "10、European Search Engines, Directories and Lists",
+        "url": "http://www.searchenginesoftheworld.com/search_engines_of_europe/"
+    }, {
+        "title": "11、Fast Advanced Google Search",
+        "url": "https://chrome.google.com/webstore/detail/fastadvancedgooglesear/idijdjdcncjcgmeiipcnkpjedhgepalk?hl=en"
+    }, {
+        "title": "12、Faster Google Search",
+        "url": "https://chrome.google.com/webstore/detail/fastergooglesearch/fmhiafgdfaglfbaaefbbolaholfhkmjc?hl=en"
+    }, {
+        "title": "13、Google Correlate",
+        "url": "https://www.google.com/trends/correlate"
+    }, {
+        "title": "14、Google Search Filter",
+        "url": "https://chrome.google.com/webstore/detail/googlesearchfilter/eidhkmnbiahhgbgpjpiimdogfidfikgf?hl=en"
+    }, {
+        "title": "15、Google Similar Pages",
+        "url": "https://chrome.google.com/webstore/detail/googlesimilarpages/pjnfggphgdjblhfjaphkjhfpiiekbbej"
+    }, {
+        "title": "16、Infinite Scroll",
+        "url": "https://chrome.google.com/webstore/detail/infinitescrollforgoogl/acjdmkdcbbhokaleofmalpcnnkpgphpb?hl=en-US"
+    }, {
+        "title": "17、I Search From",
+        "url": "https://isearchfrom.com"
+    }, {
+        "title": "18、Klug Suchen",
+        "url": "http://www.klug-suchen.de"
+    }, {
+        "title": "19、Million Short",
+        "url": "https://millionshort.com"
+    }, {
+        "title": "20、Net Data Directory",
+        "url": "http://netdatadirectory.org"
+    }, {
+        "title": "21、Neuskool",
+        "url": "http://neuskool.com"
+    }, {
+        "title": "22、pagodo",
+        "url": "https://github.com/opsdisk/pagodo"
+    }, {
+        "title": "23、Polycola",
+        "url": "http://www.polycola.com"
+    }, {
+        "title": "24、RESULTER",
+        "url": "https://chrome.google.com/webstore/detail/resultergoogle-search-sh/chojfhfgbdaeokblbdeahgbijodikdpk"
+    }, {
+        "title": "25、Result Preview",
+        "url": "https://chrome.google.com/webstore/detail/resultpreview/geogklgaaafmfijgfninjjbcinicfafb"
+    }, {
+        "title": "26、Ruin My Search History",
+        "url": "http://ruinmysearchhistory.com"
+    }, {
+        "title": "27、SCANNER-INURLBR",
+        "url": "https://github.com/googleinurl/SCANNER-INURLBR"
+    }, {
+        "title": "28、Search Engine Colossus",
+        "url": "http://www.searchenginecolossus.com"
+    }, {
+        "title": "29、Search Engines of the World",
+        "url": "https://www.searchenginesoftheworld.com"
+    }, {
+        "title": "30、Search Preview",
+        "url": "https://chrome.google.com/webstore/detail/searchpreview/majhgbekihmliceijipbdccgicepmmei"
+    }, {
+        "title": "31、Search the current site",
+        "url": "https://chrome.google.com/webstore/detail/search-thecurrent-site/jliolpcnkmolaaecncdfeofombdekjcp"
+    }, {
+        "title": "32、Secret Search Engine Labs",
+        "url": "http://www.secretsearchenginelabs.com"
+    }, {
+        "title": "33、Selection Search",
+        "url": "https://chrome.google.com/webstore/detail/selectionsearch/gipnlpdeieaidmmeaichnddnmjmcakoe"
+    }, {
+        "title": "34、Sensebot",
+        "url": "http://sensebot.com"
+    }, {
+        "title": "35、Suchmaschinen Datenbank",
+        "url": "http://www.suchmaschinen-datenbank.de"
+    }, {
+        "title": "36、tracerT",
+        "url": "https://github.com/GeneralTesler/tracerT"
+    }, {
+        "title": "37、wiby",
+        "url": "https://wiby.me"
+    }]
+}

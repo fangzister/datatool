@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="lib/jquery/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+    <script>
+        window.addEventListener('message', function(e) {
+            console.log(e);
+
+            var msgData = e.data;
+            var data = msgData.data;
+            window.data = data;
+            var category = msgData.category || '';
+            var name = msgData.name || 'tmp';
+            var api = msgData.api;
+
+            save(api, name, category, data);
+        });
+
+        window.opener.postMessage('ready','*');
+
+        function save(api, name, category, data) {
+            var url = 'http://localhost:3000/' + api;
+            $.post(url, {
+                data: data,
+                name: name,
+                category: category
+            }, function(e) {
+                document.write('<p>');
+                document.write(e);
+                document.write('</p>');
+            });
+        }
+    </script>
+</body>
+
+</html>
