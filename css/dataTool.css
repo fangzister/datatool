@@ -350,7 +350,7 @@ body[layout="default"] .bar {
     bottom: 26px;
     float: left;
     height: 100%;
-    background-image: url(/lib/fzcore/css/images/XControls/resizeicon-v.png);
+    background-image: url(../lib/fzcore/css/images/XControls/resizeicon-v.png);
 }
 
 body[layout="default"] .bar1 {
@@ -392,7 +392,7 @@ body[layout="horizontal2"] .bar {
 }
 
 body[layout="horizontal2"] .bar1 {
-    background-image: url(/lib/fzcore/css/images/XControls/resizeicon-v.png);
+    background-image: url(../lib/fzcore/css/images/XControls/resizeicon-v.png);
 }
 
 body[layout="horizontal2"] .bar2 {
@@ -425,7 +425,7 @@ body[layout="vertical2"] .bar {}
 body[layout="vertical2"] .bar1 {
     width: 100%;
     height: 6px;
-    background-image: url(/lib/fzcore/css/images/XControls/resizeicon-h.png);
+    background-image: url(../lib/fzcore/css/images/XControls/resizeicon-h.png);
 }
 
 body[layout="vertical2"] .bar2 {
@@ -476,7 +476,7 @@ body[layout="left2right1"] .bar1 {
     position: absolute;
     top: calc(50% - 3px);
     float: left;
-    background-image: url(/lib/fzcore/css/images/XControls/resizeicon-h.png);
+    background-image: url(../lib/fzcore/css/images/XControls/resizeicon-h.png);
 }
 
 body[layout="left2right1"] .bar2 {
@@ -486,7 +486,7 @@ body[layout="left2right1"] .bar2 {
     top: 0;
     width: 6px;
     cursor: ew-resize;
-    background-image: url(/lib/fzcore/css/images/XControls/resizeicon-v.png);
+    background-image: url(../lib/fzcore/css/images/XControls/resizeicon-v.png);
 }
 
 /*
@@ -552,7 +552,7 @@ body[layout="left2right1"] .bar2 {
     top: 33px;
     cursor: default;
     resize: none;
-    background: #fff url(../../lib/fzcore/css/images/XControls/text-bg.gif) repeat-x;
+    background: #fff url(../lib/fzcore/css/images/XControls/text-bg.gif) repeat-x;
     font-size: 14px;
     padding: 3px;
     line-height: 1.5em;
