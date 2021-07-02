@@ -1,0 +1,831 @@
+.myicon {
+    background-image: url(../images/myicon.png);
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    margin: 0 3px;
+}
+
+a:hover .myicon {
+    background-image: url(../images/myicon_hover.png);
+}
+
+.myicon-1,
+.myicon-身份证认证 {
+    background-position: 0 0;
+}
+
+.myicon-2,
+.myicon-身份证地址 {
+    background-position: -22px 0;
+}
+
+.myicon-3 {
+    background-position: -44px 0;
+}
+
+.myicon-4,
+.myicon-交集 {
+    background-position: -66px 0;
+}
+
+.myicon-5,
+.myicon-合并去重 {
+    background-position: -88px 0;
+}
+
+.myicon-6,
+.myicon-车牌号 {
+    background-position: -110px 0;
+}
+
+.myicon-7 {
+    background-position: -132px 0;
+}
+
+.myicon-8 {
+    background-position: -154px 0;
+}
+
+.myicon-9,
+.myicon-radix {
+    background-position: -176px 0;
+}
+
+.myicon-10,
+.myicon-json {
+    background-position: -198px 0;
+}
+
+.myicon-11,
+.myicon-ip {
+    background-position: 0 -22px;
+}
+
+.myicon-12,
+.myicon-imgtobase64 {
+    background-position: -22px -22px;
+}
+
+.myicon-13,
+.myicon-base64toimg {
+    background-position: -44px -22px;
+}
+
+.myicon-14,
+.myicon-mark {
+    background-position: -66px -22px;
+}
+
+.myicon-15,
+.myicon-api {
+    background-position: -88px -22px;
+}
+
+.myicon-16,
+.myicon-mac {
+    background-position: -110px -22px;
+}
+
+.myicon-17 {
+    background-position: -132px -22px;
+}
+
+.myicon-18 {
+    background-position: -154px -22px;
+}
+
+.myicon-19 {
+    background-position: -176px -22px;
+}
+
+.myicon-20 {
+    background-position: -198px -22px;
+}
+
+.myicon-21,
+.myicon-lcm {
+    background-position: 0 -44px;
+}
+
+.myicon-22,
+.myicon-gcd {
+    background-position: -22px -44px;
+}
+
+.myicon-23,
+.myicon-sum {
+    background-position: -44px -44px;
+}
+
+.myicon-24,
+.myicon-avg {
+    background-position: -66px -44px;
+}
+
+.myicon-25,
+.myicon-fac {
+    background-position: -88px -44px;
+}
+
+.myicon-26,
+.myicon-arrange {
+    background-position: -110px -44px;
+}
+
+.myicon-27,
+.myicon-combine {
+    background-position: -132px -44px;
+}
+
+.myicon-28 {
+    background-position: -154px -44px;
+}
+
+.myicon-29 {
+    background-position: -176px -44px;
+}
+
+.myicon-30 {
+    background-position: -198px -44px;
+}
+
+.myicon-31 {
+    background-position: 0 -66px;
+}
+
+.myicon-32 {
+    background-position: -22px -66px;
+}
+
+.myicon-33 {
+    background-position: -44px -66px;
+}
+
+.myicon-34 {
+    background-position: -66px -66px;
+}
+
+.myicon-35 {
+    background-position: -88px -66px;
+}
+
+.myicon-36 {
+    background-position: -110px -66px;
+}
+
+.myicon-37 {
+    background-position: -132px -66px;
+}
+
+.myicon-38 {
+    background-position: -154px -66px;
+}
+
+.myicon-39 {
+    background-position: -176px -66px;
+}
+
+.myicon-40 {
+    background-position: -198px -66px;
+}
+
+.myicon-41 {
+    background-position: -22px -88px;
+}
+
+.myicon-42 {
+    background-position: -44px -88px;
+}
+
+.myicon-43 {
+    background-position: -66px -88px;
+}
+
+.myicon-44 {
+    background-position: -88px -88px;
+}
+
+.myicon-45 {
+    background-position: -110px -88px;
+}
+
+.myicon-46 {
+    background-position: -132px -88px;
+}
+
+.myicon-47 {
+    background-position: -154px -88px;
+}
+
+.myicon-48 {
+    background-position: -176px -88px;
+}
+
+.myicon-49 {
+    background-position: -198px -88px;
+}
+
+.myicon-50 {
+    background-position: 0 -88px;
+}
+
+.myicon-51 {
+    background-position: -22px -110px;
+}
+
+.myicon-52 {
+    background-position: -44px -110px;
+}
+
+.myicon-53 {
+    background-position: -66px -110px;
+}
+
+.myicon-54 {
+    background-position: -88px -110px;
+}
+
+.myicon-55 {
+    background-position: -110px -110px;
+}
+
+.myicon-56 {
+    background-position: -132px -110px;
+}
+
+.myicon-57 {
+    background-position: -154px -110px;
+}
+
+.myicon-58 {
+    background-position: -176px -110px;
+}
+
+.myicon-59 {
+    background-position: -198px -110px;
+}
+
+.myicon-60 {
+    background-position: 0 -110px;
+}
+
+.myicon-61 {
+    background-position: -22px -132px;
+}
+
+.myicon-62 {
+    background-position: -44px -132px;
+}
+
+.myicon-63 {
+    background-position: -66px -132px;
+}
+
+.myicon-64 {
+    background-position: -88px -132px;
+}
+
+.myicon-65 {
+    background-position: -110px -132px;
+}
+
+.myicon-66 {
+    background-position: -132px -132px;
+}
+
+.myicon-67 {
+    background-position: -154px -132px;
+}
+
+.myicon-68 {
+    background-position: -176px -132px;
+}
+
+.myicon-69 {
+    background-position: -198px -132px;
+}
+
+.myicon-70 {
+    background-position: 0 -132px;
+}
+
+.myicon-71 {
+    background-position: -22px -154px;
+}
+
+.myicon-72 {
+    background-position: -44px -154px;
+}
+
+.myicon-73 {
+    background-position: -66px -154px;
+}
+
+.myicon-74 {
+    background-position: -88px -154px;
+}
+
+.myicon-75 {
+    background-position: -110px -154px;
+}
+
+.myicon-76 {
+    background-position: -132px -154px;
+}
+
+.myicon-77 {
+    background-position: -154px -154px;
+}
+
+.myicon-78 {
+    background-position: -176px -154px;
+}
+
+.myicon-79 {
+    background-position: -198px -154px;
+}
+
+.myicon-80 {
+    background-position: 0 -154px;
+}
+
+.myicon-81 {
+    background-position: -22px -176px;
+}
+
+.myicon-82 {
+    background-position: -44px -176px;
+}
+
+.myicon-83 {
+    background-position: -66px -176px;
+}
+
+.myicon-84 {
+    background-position: -88px -176px;
+}
+
+.myicon-85 {
+    background-position: -110px -176px;
+}
+
+.myicon-86 {
+    background-position: -132px -176px;
+}
+
+.myicon-87 {
+    background-position: -154px -176px;
+}
+
+.myicon-88 {
+    background-position: -176px -176px;
+}
+
+.myicon-89 {
+    background-position: -198px -176px;
+}
+
+.myicon-90 {
+    background-position: 0 -176px;
+}
+
+.myicon-91 {
+    background-position: -22px -198px;
+}
+
+.myicon-92 {
+    background-position: -44px -198px;
+}
+
+.myicon-93 {
+    background-position: -66px -198px;
+}
+
+.myicon-94 {
+    background-position: -88px -198px;
+}
+
+.myicon-95 {
+    background-position: -110px -198px;
+}
+
+.myicon-96 {
+    background-position: -132px -198px;
+}
+
+.myicon-97 {
+    background-position: -154px -198px;
+}
+
+.myicon-98 {
+    background-position: -176px -198px;
+}
+
+.myicon-99 {
+    background-position: -198px -198px;
+}
+
+.myicon-100 {
+    background-position: 0 -198px;
+}
+
+.myicon-101 {
+    background-position: -22px -220px;
+}
+
+.myicon-102 {
+    background-position: -44px -220px;
+}
+
+.myicon-103 {
+    background-position: -66px -220px;
+}
+
+.myicon-104 {
+    background-position: -88px -220px;
+}
+
+.myicon-105 {
+    background-position: -110px -220px;
+}
+
+.myicon-106 {
+    background-position: -132px -220px;
+}
+
+.myicon-107 {
+    background-position: -154px -220px;
+}
+
+.myicon-108 {
+    background-position: -176px -220px;
+}
+
+.myicon-109 {
+    background-position: -198px -220px;
+}
+
+.myicon-110 {
+    background-position: 0 -220px;
+}
+
+.myicon-111 {
+    background-position: -22px -242px;
+}
+
+.myicon-112 {
+    background-position: -44px -242px;
+}
+
+.myicon-113 {
+    background-position: -66px -242px;
+}
+
+.myicon-114 {
+    background-position: -88px -242px;
+}
+
+.myicon-115 {
+    background-position: -110px -242px;
+}
+
+.myicon-116 {
+    background-position: -132px -242px;
+}
+
+.myicon-117 {
+    background-position: -154px -242px;
+}
+
+.myicon-118 {
+    background-position: -176px -242px;
+}
+
+.myicon-119 {
+    background-position: -198px -242px;
+}
+
+.myicon-120 {
+    background-position: 0 -242px;
+}
+
+.myicon-121 {
+    background-position: -22px -264px;
+}
+
+.myicon-122 {
+    background-position: -44px -264px;
+}
+
+.myicon-123 {
+    background-position: -66px -264px;
+}
+
+.myicon-124 {
+    background-position: -88px -264px;
+}
+
+.myicon-125 {
+    background-position: -110px -264px;
+}
+
+.myicon-126 {
+    background-position: -132px -264px;
+}
+
+.myicon-127 {
+    background-position: -154px -264px;
+}
+
+.myicon-128 {
+    background-position: -176px -264px;
+}
+
+.myicon-129 {
+    background-position: -198px -264px;
+}
+
+.myicon-130 {
+    background-position: 0 -264px;
+}
+
+.myicon-131 {
+    background-position: -22px -286px;
+}
+
+.myicon-132 {
+    background-position: -44px -286px;
+}
+
+.myicon-133 {
+    background-position: -66px -286px;
+}
+
+.myicon-134 {
+    background-position: -88px -286px;
+}
+
+.myicon-135 {
+    background-position: -110px -286px;
+}
+
+.myicon-136 {
+    background-position: -132px -286px;
+}
+
+.myicon-137 {
+    background-position: -154px -286px;
+}
+
+.myicon-138 {
+    background-position: -176px -286px;
+}
+
+.myicon-139 {
+    background-position: -198px -286px;
+}
+
+.myicon-140 {
+    background-position: 0 -286px;
+}
+
+.myicon-141 {
+    background-position: -22px -308px;
+}
+
+.myicon-142 {
+    background-position: -44px -308px;
+}
+
+.myicon-143 {
+    background-position: -66px -308px;
+}
+
+.myicon-144 {
+    background-position: -88px -308px;
+}
+
+.myicon-145 {
+    background-position: -110px -308px;
+}
+
+.myicon-146 {
+    background-position: -132px -308px;
+}
+
+.myicon-147 {
+    background-position: -154px -308px;
+}
+
+.myicon-148 {
+    background-position: -176px -308px;
+}
+
+.myicon-149 {
+    background-position: -198px -308px;
+}
+
+.myicon-150 {
+    background-position: 0 -308px;
+}
+
+.myicon-151 {
+    background-position: -22px -330px;
+}
+
+.myicon-152 {
+    background-position: -44px -330px;
+}
+
+.myicon-153 {
+    background-position: -66px -330px;
+}
+
+.myicon-154 {
+    background-position: -88px -330px;
+}
+
+.myicon-155 {
+    background-position: -110px -330px;
+}
+
+.myicon-156 {
+    background-position: -132px -330px;
+}
+
+.myicon-157 {
+    background-position: -154px -330px;
+}
+
+.myicon-158 {
+    background-position: -176px -330px;
+}
+
+.myicon-159 {
+    background-position: -198px -330px;
+}
+
+.myicon-160 {
+    background-position: 0 -330px;
+}
+
+.myicon-161 {
+    background-position: -22px -352px;
+}
+
+.myicon-162 {
+    background-position: -44px -352px;
+}
+
+.myicon-163 {
+    background-position: -66px -352px;
+}
+
+.myicon-164 {
+    background-position: -88px -352px;
+}
+
+.myicon-165 {
+    background-position: -110px -352px;
+}
+
+.myicon-166 {
+    background-position: -132px -352px;
+}
+
+.myicon-167 {
+    background-position: -154px -352px;
+}
+
+.myicon-168 {
+    background-position: -176px -352px;
+}
+
+.myicon-169 {
+    background-position: -198px -352px;
+}
+
+.myicon-170 {
+    background-position: 0 -352px;
+}
+
+.myicon-171 {
+    background-position: -22px -374px;
+}
+
+.myicon-172 {
+    background-position: -44px -374px;
+}
+
+.myicon-173 {
+    background-position: -66px -374px;
+}
+
+.myicon-174 {
+    background-position: -88px -374px;
+}
+
+.myicon-175 {
+    background-position: -110px -374px;
+}
+
+.myicon-176 {
+    background-position: -132px -374px;
+}
+
+.myicon-177 {
+    background-position: -154px -374px;
+}
+
+.myicon-178 {
+    background-position: -176px -374px;
+}
+
+.myicon-179 {
+    background-position: -198px -374px;
+}
+
+.myicon-180 {
+    background-position: 0 -374px;
+}
+
+.myicon-181 {
+    background-position: -22px -396px;
+}
+
+.myicon-182 {
+    background-position: -44px -396px;
+}
+
+.myicon-183 {
+    background-position: -66px -396px;
+}
+
+.myicon-184 {
+    background-position: -88px -396px;
+}
+
+.myicon-185 {
+    background-position: -110px -396px;
+}
+
+.myicon-186 {
+    background-position: -132px -396px;
+}
+
+.myicon-187 {
+    background-position: -154px -396px;
+}
+
+.myicon-188 {
+    background-position: -176px -396px;
+}
+
+.myicon-189 {
+    background-position: -198px -396px;
+}
+
+.myicon-190 {
+    background-position: 0 -396px;
+}
+
+.myicon-191 {
+    background-position: -22px -418px;
+}
+
+.myicon-192 {
+    background-position: -44px -418px;
+}
+
+.myicon-193 {
+    background-position: -66px -418px;
+}
+
+.myicon-194 {
+    background-position: -88px -418px;
+}
+
+.myicon-195 {
+    background-position: -110px -418px;
+}
+
+.myicon-196 {
+    background-position: -132px -418px;
+}
+
+.myicon-197 {
+    background-position: -154px -418px;
+}
+
+.myicon-198 {
+    background-position: -176px -418px;
+}
+
+.myicon-199 {
+    background-position: -198px -418px;
+}
+
+.myicon-200 {
+    background-position: 0 -418px;
+}
