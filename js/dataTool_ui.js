@@ -645,7 +645,7 @@ function setSourceCount(t, noSaveLocalStorage) {
                     cache: true,
                     type: 'GET',
                     success: function(e) {
-                        window.ipData = e;
+                        window.ipData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
                     }
                 })
             }
@@ -658,7 +658,7 @@ function setSourceCount(t, noSaveLocalStorage) {
                     cache: true,
                     type: 'GET',
                     success: function(e) {
-                        window.mobileData = e;
+                        window.mobileData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
                     }
                 });
             }
@@ -671,7 +671,7 @@ function setSourceCount(t, noSaveLocalStorage) {
                     cache: true,
                     type: 'GET',
                     success: function(e) {
-                        window.idcardData = e;
+                        window.idcardData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
                     }
                 });
             }
@@ -684,7 +684,7 @@ function setSourceCount(t, noSaveLocalStorage) {
                     cache: true,
                     type: 'GET',
                     success: function(e) {
-                        window.carData = e;
+                        window.carData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
                     }
                 });
             }
@@ -697,7 +697,7 @@ function setSourceCount(t, noSaveLocalStorage) {
                     cache: true,
                     type: 'GET',
                     success: function(e) {
-                        window.bankData = e;
+                        window.bankData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
                     }
                 });
             }

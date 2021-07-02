@@ -2109,21 +2109,21 @@ function mobileLocationFromFile() {
 function _mobileLocation(sourceArray) {
     if (!window.mobileData) {
         $.get(MOBILE_DATA, function(e) {
-            window.mobileData = e;
-            query(sourceArray);
+            window.mobileData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(sourceArray, window.mobileData);
         });
     } else {
-        query(sourceArray);
+        query(sourceArray, window.mobileData);
     }
 
-    function query(arr) {
+    function query(arr, mobileData) {
         if (arr.length < 1000) {
             var ret = fzArray.each(arr, function(x) {
                 if (isEmpty(x)) {
                     return x;
                 }
                 if (fzValidator.isPhoneNumber(x)) {
-                    return x + '\t' + window.mobileData[x.substr(0, 7)];
+                    return x + '\t' + mobileData[x.substr(0, 7)];
                 }
                 return x + '\t【无效号码】';
             });
@@ -2141,7 +2141,7 @@ function _mobileLocation(sourceArray) {
                     data.push([x, '']);
                 }
                 if (fzValidator.isPhoneNumber(x)) {
-                    data.push([x, window.mobileData[x.substr(0, 7)]]);
+                    data.push([x, mobileData[x.substr(0, 7)]]);
                     return;
                 }
                 data.push([x, '【无效号码】']);
@@ -2159,9 +2159,9 @@ function _mobileLocation(sourceArray) {
                     return;
                 }
                 x = x.trim();
-                debugger;
+
                 if (fzValidator.isPhoneNumber(x)) {
-                    data.push([x, window.mobileData[x.substr(0, 7)]].join(','));
+                    data.push([x, mobileData[x.substr(0, 7)]].join(','));
                     return;
                 }
                 data.push([x, '【无效号码】'].join(','));
@@ -2178,8 +2178,8 @@ function mobileInternationalCode() {
     var arr = getArrayWithEmpty('txtArray1');
     if (!window.internationalCodeData) {
         $.get(INTERNATIONAL_CODE_DATA, function(e) {
-            window.internationalCodeData = e;
-            query(e, arr);
+            window.internationalCodeData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.internationalCodeData, arr);
         });
     } else {
         query(window.internationalCodeData, arr);
@@ -2277,15 +2277,15 @@ function _ipLocation(sourceArray) {
             cache: true,
             type: 'GET',
             success: function(e) {
-                window.ipData = e;
-                query(sourceArray);
+                window.ipData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+                query(sourceArray, window.ipData);
             }
         });
     } else {
-        query(sourceArray);
+        query(sourceArray, window.ipData);
     }
 
-    function query(arr) {
+    function query(arr, ipData) {
         if (arr.length < 1000) {
             var ret = fzArray.each(arr, function(ip) {
                 ip = ip.trim();
@@ -2504,14 +2504,14 @@ function makeVCard() {
 function getCarLocation() {
     if (!window.carData) {
         $.get(CARNUMBER_DATA, function(e) {
-            window.carData = e;
-            query();
+            window.carData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.carData);
         });
     } else {
-        query();
+        query(window.carData);
     }
 
-    function query() {
+    function query(carData) {
         var arr = getArrayWithEmpty('txtArray1');
         var ret = fzArray.each(arr, function(x) {
             if (isEmpty(x)) {
@@ -2529,7 +2529,7 @@ function getCarLocation() {
             if (!carRegExp.test(m)) {
                 return x + '\t【无效车牌号】';
             }
-            var obj = window.carData[p];
+            var obj = carData[p];
             if (!obj) {
                 return x + '\t【无效车牌号】';
             }
@@ -2571,8 +2571,8 @@ function getBankLocation() {
 function _getBankLocation(sourceArray) {
     if (!window.bankData) {
         $.get(BANK_DATA, function(e) {
-            window.bankData = e;
-            query(e, sourceArray);
+            window.bankData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.bankData, sourceArray);
         });
     } else {
         query(window.bankData, sourceArray);
@@ -2706,15 +2706,15 @@ function _getBankLocation(sourceArray) {
 function getSMSProvider() {
     if (!window.smsProviderData) {
         $.get(SMSPROVIDER_DATA, function(e) {
-            window.smsProviderData = e;
-            query();
+            window.smsProviderData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.smsProviderData);
         });
     } else {
-        query();
+        query(window.smsProviderData);
     }
 
-    function query() {
-        var lens = Object.keys(window.smsProviderData);
+    function query(smsProviderData) {
+        var lens = Object.keys(smsProviderData);
         lens = lens.reverse();
 
         var arr = getArrayWithEmpty('txtArray1');
@@ -2723,7 +2723,7 @@ function getSMSProvider() {
                 return x;
             }
 
-            return x + '\t' + queryOne(x, lens, window.smsProviderData);
+            return x + '\t' + queryOne(x, lens, smsProviderData);
         });
         setResult(ret);
     }
@@ -2784,21 +2784,21 @@ function idcardLocation() {
     console.time('idcardLocation');
     if (!window.idcardData) {
         $.get(IDCARD_DATA, function(e) {
-            window.idcardData = e;
-            query();
+            window.idcardData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.idcardData);
         });
     } else {
-        query();
+        query(window.idcardData);
     }
 
-    function query() {
+    function query(idcardData) {
         var arr = getArrayWithEmpty('txtArray1');
         var ret = fzArray.each(arr, function(x) {
             if (isEmpty(x)) {
                 return x;
             }
             if (fzValidator.isIdCard(x)) {
-                return x + '\t' + window.idcardData[x.substr(0, 6)];
+                return x + '\t' + idcardData[x.substr(0, 6)];
             }
             return x + '\t【无效身份证号】';
         });
@@ -2810,14 +2810,14 @@ function idcardLocation() {
 function idcardGenderAgeLocation() {
     if (!window.idcardData) {
         $.get(IDCARD_DATA, function(e) {
-            window.idcardData = e;
-            query();
+            window.idcardData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.idcardData);
         });
     } else {
-        query();
+        query(window.idcardData);
     }
 
-    function query() {
+    function query(idcardData) {
         var arr = getArrayWithEmpty('txtArray1');
         var arr1 = [],
             arr2 = [],
@@ -2843,7 +2843,7 @@ function idcardGenderAgeLocation() {
 
             sGender = fzString.getGenderByIdcard(sIdcard);
             sAge = fzString.getAgeByIdcard(sIdcard);
-            sLocation = window.idcardData[x.substr(0, 6)];
+            sLocation = idcardData[x.substr(0, 6)];
 
             arr1.push(x + '\t' + sGender + '\t' + sAge + '\t' + sLocation);
             arr2.push(sGender + '，' + sAge + '岁，身份证号：' + x + '，户籍地：' + sLocation);
@@ -2860,8 +2860,8 @@ function idcardGenderAgeLocation() {
 function getMACInfo() {
     if (!window.macOUIData) {
         $.get(MAC_OUI_DATA, function(e) {
-            window.macOUIData = e;
-            query(e);
+            window.macOUIData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.macOUIData);
         });
     } else {
         query(window.macOUIData);
@@ -2890,8 +2890,8 @@ function getMACInfo() {
 function httpCodeMap() {
     if (!window.httpcodeData) {
         $.get(HTTP_CODE_DATA, function(e) {
-            window.httpcodeData = e;
-            query(e);
+            window.httpcodeData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            query(window.httpcodeData);
         });
     } else {
         query(window.httpcodeData);
@@ -3620,8 +3620,8 @@ function randMac() {
 function randRealMac() {
     if (!window.macOUIData) {
         $.get(MAC_OUI_DATA, function(e) {
-            go(e);
-            window.macOUIData = e;
+            window.macOUIData = IS_FILE_PROTOCAL ? JSON.parse(e) : e;
+            go(window.macOUIData);
         });
     } else {
         go(window.macOUIData);
@@ -5819,7 +5819,8 @@ function showGoogleHackingDialog() {
                 url = url2 + '+ext:php+intitle:phpinfo+"published+by+the+PHP+Group"';
                 break;
             case 10:
-                url = url1 + 'site:pastebin.com+|+site:paste2.org+|+site:pastehtml.com+|+site:slexy.org+|+site:snipplr.com+|+site:snipt.net+|+site:textsnip.com+|+site:bitpaste.app+|+site:justpaste.it+|+site:heypasteit.com+|+site:hastebin.com+|+site:dpaste.org+|+site:dpaste.com+|+site:codepad.org+|+site:jsitor.com+|+site:codepen.io+|+site:jsfiddle.net+|+site:dotnetfiddle.net+|+site:phpfiddle.org+|+site:ide.geeksforgeeks.org+|+site:repl.it+|+site:ideone.com+|+site:paste.debian.net+|+site:paste.org+|+site:paste.org.ru+|+site:codebeautify.org+|+site:codeshare.io+|+site:trello.com' + '+"' + site + '"';
+                url = url1 + 'site:pastebin.com+|+site:paste2.org+|+site:pastehtml.com+|+site:slexy.org+|+site:snipplr.com+|+site:snipt.net+|+site:textsnip.com+|+site:bitpaste.app+|+site:justpaste.it+|+site:heypasteit.com+|+site:hastebin.com+|+site:dpaste.org+|+site:dpaste.com+|+site:codepad.org+|+site:jsitor.com+|+site:codepen.io+|+site:jsfiddle.net+|+site:dotnetfiddle.net+|+site:phpfiddle.org+|+site:ide.geeksforgeeks.org+|+site:repl.it+|+site:ideone.com+|+site:paste.debian.net+|+site:paste.org+|+site:paste.org.ru+|+site:codebeautify.org+|+site:codeshare.io+|+site:trello.com' + '+"' + site +
+                    '"';
                 break;
             case 11:
                 url = url1 + 'site:github.com+|+site:gitlab.com' + '+"' + site + '"';
@@ -5832,4 +5833,3 @@ function showGoogleHackingDialog() {
 function showOSINTFramework() {
     window.open('plugin/osint/OSINT-Framework-master/public/index.html');
 }
-
